@@ -52,7 +52,7 @@ body, html {
   display: flex;
   justify-content: space-between; /* Logo à gauche, liens à droite */
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   background: rgba(0, 0, 0, 0.4); /* Bande noire transparente */
   backdrop-filter: blur(2px); /* Flou futuriste */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Fine bordure blanche semi-transparente */
@@ -951,4 +951,21 @@ display: flex;
     height: 120px;
     top: 0;
   }
+}
+@media screen and (min-width: 769px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px -30px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: 750px;
+    justify-content: flex-start;
+  }
+
+  
 }
