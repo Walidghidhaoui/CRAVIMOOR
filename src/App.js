@@ -114,7 +114,7 @@ function App() {
   linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_bmw-design-catia-activity-6653589394882076672-MKXl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
 />
     <ProjectCard
-      imageUrl="/images/walda.jpg"
+      imageUrl="/images/Walda.jpg"
       title="Walda Car Design"
       description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA, brought to life in KeyShot."
       linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
