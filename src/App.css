@@ -943,3 +943,65 @@ display: flex;
     text-align: left;
   }
 }
+@media (max-width: 480px) {
+  .section h2 {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  .section p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  .navbar-logo {
+    height: 40px;
+  }
+  .hero-text {
+    padding: 1.5rem;
+    height: auto;
+    top: 150px;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .service-grid {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2rem;
+  }
+  .service-card {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+  .footer-grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .App-logo {
+    height: 120px;
+    top: 0;
+  }
+}
