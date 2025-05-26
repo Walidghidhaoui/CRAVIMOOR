@@ -519,3 +519,406 @@ display: flex;
   color: #888;
   margin-bottom: 20px;
 }
+@media (max-width: 480px) {
+  /* Ajuster la taille des titres et paragraphes */
+  .section h2 {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  .section p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+
+  /* Navbar : Empiler ou simplifier la barre */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+
+  /* Logo plus petit */
+  .navbar-logo {
+    height: 40px;
+  }
+
+  /* Hero text : réduire padding et taille */
+  .hero-text {
+    padding: 1.5rem;
+    height: auto;
+    top: 150px;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* Section services : passer en colonne */
+  .service-grid {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2rem;
+  }
+  .service-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Projet grid : ajuster gap et colonnes */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  /* Contact form : passer en colonne simple */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  /* Footer : espacement plus serré */
+  .footer-grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* Animation logo plus petite */
+  .App-logo {
+    height: 120px;
+    top: 0;
+  }
+}
+.hero-background {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  /* Navbar : empilement vertical ou menu hamburger */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .nav-links li a {
+    font-size: 1.2rem;
+    top: 0;
+  }
+  .navbar-logo {
+    height: 50px;
+  }
+
+  /* Hero section : réduire la taille, espacer */
+  .hero {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  .hero-text {
+    top: 0;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* Sections */
+  .section {
+    margin: 2rem 1rem;
+  }
+  .section h2 {
+    font-size: 1.8rem;
+  }
+  .section p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  /* Grille des services : passer de flex row à column */
+  .service-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .service-card {
+    width: 100%;
+  }
+
+  /* Projets : réduire les colonnes */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  /* Contact : passer la grille à une seule colonne */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  /* Footer : centrer et réduire l’espacement */
+  .footer-grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+/* 1. Navbar responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .navbar-logo {
+    height: 40px;
+  }
+}
+
+/* 2. Hero section responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 90vh;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    top: 0;
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+/* 3. Contact grid responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  /* GÉNÉRAL */
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* NAVIGATION (si tu as une barre de navigation fixe) */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  /* SECTION HOME */
+  .home {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .home img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* SECTION PROJECTS */
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  .projects .project-item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* SECTION ABOUT */
+  .about {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .about img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* SECTION SERVICES */
+  .services {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+
+  .services .service-box {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: #f9f9f9;
+  }
+
+  /* SECTION CONTACT */
+  .contact {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea,
+  .contact button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+
+  /* BOUTONS */
+  button,
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  /* IMAGES RÉACTIVES */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* PARALLAX OU FIXED BACKGROUND */
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/* Styles de base du menu */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Burger - caché sur desktop */
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    height: calc(100% - 60px);
+    background-color: #222;
+    flex-direction: column;
+    width: 200px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    padding-top: 20px;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  /* Affiche le menu quand il a la classe 'nav-active' */
+  .nav-links.nav-active {
+    transform: translateX(0);
+  }
+
+  /* Affiche burger */
+  .burger {
+    display: flex;
+  }
+}
