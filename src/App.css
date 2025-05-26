@@ -852,8 +852,35 @@ display: flex;
 }
 @media screen and (max-width: 768px) {
   .contact {
-    padding-left: 20px; /* décale vers la gauche */
-    padding-right: 10px;
-    text-align: left;
+    margin: 0;
+    padding: 10px 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+
+/* Responsive - mobile */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
   }
 }
