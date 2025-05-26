@@ -1,0 +1,521 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 50%, #0a0a0a 100%);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif; /* Futuriste */
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Pour éviter que les éléments sortent de la page */
+}
+.App {
+  padding: 0;
+}
+.section {
+  text-align: center;
+  margin: 4rem 0;
+}
+.section h2 {
+  padding: 10px;
+  font-size: 2.5rem;
+  color: #00ffe7;
+  margin-bottom: 1rem;
+}
+.section p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Logo animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.App-logo {
+  height: 200px;
+  pointer-events: none;
+  animation: float 4s ease-in-out infinite;
+  position: relative;
+  top: -5px;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 231, 0.4));
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo à gauche, liens à droite */
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.4); /* Bande noire transparente */
+  backdrop-filter: blur(2px); /* Flou futuriste */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Fine bordure blanche semi-transparente */
+  position: fixed;
+  top: 0;
+  width: 95%;
+  height: 15%;
+  z-index: 1000;
+}
+.navbar-logo {
+  height: 60px; /* Taille du logo */
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li a {
+  color: #00ffe7;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+  position: relative;
+  top: -5px; /* Plus de décalage inutile */
+}
+.nav-links li a:hover {
+  color: #d4af37;
+}
+/* Hero Section */
+.hero {
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  
+  
+}
+.hero-text {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  height: 20vh;
+  border-radius: 1rem;
+  position: relative;
+  top: 300px; /* Plus de décalage inutile */
+  
+}
+.hero-text h1 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #00ffe7, #ff00f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.hero-text p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.separator {
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(90deg, #d4af37, #000, #d4af37); /* Doré cassé noir */
+  margin: 3rem auto;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+.hero-overlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.our-services {
+  text-align: center; /* Centre le texte */
+  max-width: 1500px; /* Même largeur que About Us */
+  margin: 4rem auto; /* Marge identique */
+  padding: 0 40px; /* Padding latéral */
+}
+
+.our-services h2 {
+  background: linear-gradient(90deg, #00ffe7, #1303f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-grid {
+display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 20px;
+  margin-top: 3rem;
+
+}
+.service-card {
+  background-color: #1f1f1f;
+  padding: 0px ;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 255, 234, 0.3);
+}
+.service-card h3 {
+  margin-bottom: 15px;
+  color: #00ffea;
+}
+.service-card p {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+.App-header {
+  position: relative;
+  height: 100vh;
+  background-image: url('./images/BUG_Ghidhaoui_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Projects Section */
+.projects-section {
+  padding: 5rem 2rem;
+  background: #0a0a0a;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  aspect-ratio: 1/1;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-front {
+  background: #1a1a1a;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0,255,231,0.1), rgba(0,0,0,0.8));
+}
+
+.card-back {
+  background: #001212;
+  transform: rotateY(180deg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #00ffe7;
+}
+
+/* Contact Section */
+.contact-section {
+  position: relative;
+  padding: 5rem 2rem;
+  background: #0f0f0f;
+}
+
+.holographic-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #00ffe7, transparent, #00ffe7);
+  animation: scanline 3s infinite linear;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cyber-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.neon-input, .neon-textarea {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid #00ffe7;
+  border-radius: 5px;
+  color: #00ffe7;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.neon-input:focus, .neon-textarea:focus {
+  box-shadow: 0 0 15px #00ffe7;
+  outline: none;
+}
+
+.floating-label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #00ffe7;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.neon-input:focus + .floating-label,
+.neon-input:not(:placeholder-shown) + .floating-label,
+.neon-textarea:focus + .floating-label,
+.neon-textarea:not(:placeholder-shown) + .floating-label {
+  top: -10px;
+  left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.cyber-button {
+  position: relative;
+  padding: 1rem 2rem;
+  background: #002020;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.glow-text {
+  position: relative;
+  z-index: 2;
+  color: #00ffe7;
+  font-weight: bold;
+}
+
+.gradient-bar {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #00ffe755, transparent);
+  transition: all 0.5s;
+}
+
+.cyber-button:hover .gradient-bar {
+  left: 100%;
+}
+
+/* Footer */
+.cyber-footer {
+  padding: 2rem;
+  background: #000;
+  text-align: center;
+  border-top: 2px solid #00ffe7;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-grid a {
+  color: #00ffe7;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-grid a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #00ffe7;
+  transition: width 0.3s;
+}
+
+.footer-grid a:hover::after {
+  width: 100%;
+}
+
+@keyframes scanline {
+  0% { background-position: -100% 0; }
+  100% { background-position: 200% 0; }
+}
+/* Style unifié pour tous les titres de section */
+.section h2, 
+.our-services h2,
+#contact h2 {
+  background: linear-gradient(90deg, #00ffe7, #1204d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  padding: 0 15px;
+}
+
+/* Style cohérent pour les descriptions */
+.section p,
+.our-services p {
+  color: #cccccc;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+/* Effet hover sur les titres */
+.section h2:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section h2 {
+    font-size: 2rem;
+  }
+  
+  .section p {
+    font-size: 1rem;
+  }
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.projects-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  color: #ccc;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.projects-intro em {
+  color: #00ffe7;
+  font-style: normal;
+  display: inline-block;
+  margin-top: 2rem;
+}
+/* Animation de la main - Version verticale */
+@keyframes pointing {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); } /* Déplacement vers le haut */
+}
+
+.pointer-container {
+  display: flex;
+  flex-direction: column; /* Empilement vertical */
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Espacement réduit */
+  margin: 20px 0;
+  color: #00ffe7;
+}
+
+.hand-pointer {
+  font-size: 2rem;
+  animation: pointing 1.2s infinite ease-in-out; /* Animation plus douce */
+  filter: drop-shadow(0 0 8px rgba(0, 255, 231, 0.9)); /* Glow plus intense */
+  margin-bottom: 5px;
+}
+
+.pointer-text {
+  text-transform: uppercase;
+  letter-spacing: 3px; /* Espacement augmenté */
+  font-size: 0.9rem;
+  animation: glow 1.5s infinite alternate;
+  text-align: center;
+}
+
+@keyframes glow {
+  from { 
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
+  to { 
+    opacity: 1; 
+    text-shadow: 0 0 12px #00ffe7; /* Effet néon renforcé */
+    transform: scale(1.02);
+  }
+}
+.footer-line {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}

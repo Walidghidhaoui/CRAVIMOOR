@@ -1,0 +1,235 @@
+.contact-section {
+    padding: 4rem 2rem;
+    background: #0f0f0f;
+    color: #fff;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #00ffe7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style du tableau */
+  .contact-info-card {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid #00ffe7;
+  }
+  
+  .contact-info-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #00ffe7;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+  }
+  
+  .contact-table tr {
+    transition: all 0.3s ease;
+  }
+  
+  .contact-table tr:hover {
+    background: rgba(0, 255, 231, 0.1);
+  }
+  
+  .icon-cell {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+    width: 40px;
+  }
+  
+  .label-cell {
+    font-weight: bold;
+    padding-right: 1rem;
+    color: #00ffe7;
+  }
+  
+  .value-cell {
+    color: #ccc;
+  }
+  
+  /* Style du formulaire */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #444;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-bottom-color: #00ffe7;
+  }
+  
+  .contact-form label {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: #888;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  
+  .contact-form input:focus + label,
+  .contact-form input:not(:placeholder-shown) + label,
+  .contact-form textarea:focus + label,
+  .contact-form textarea:not(:placeholder-shown) + label {
+    top: -1rem;
+    left: 0;
+    font-size: 0.8rem;
+    color: #00ffe7;
+  }
+  
+  .submit-btn {
+    padding: 1rem 2rem;
+    background: #00ffe7;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .submit-btn:hover {
+    background: #00ccb3;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 231, 0.4);
+  }
+  
+  .social-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-links a {
+    color: #00ffe7;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  /* Styles des boutons sociaux */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-icon {
+    font-size: 1.1rem;
+  }
+  
+  .linkedin-btn {
+    background: #0A66C2;
+  }
+  
+  .twitter-btn {
+    background: #000000;
+  }
+  .facebook-btn {
+    background: #1877F2;
+  }
+  .instagram-btn {
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100% );
+  }
+  .tiktok-btn {
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+  }
+  .youtube-btn {
+    background: #FF0000;
+  }
+  .github-btn { background: #181717; }
+  .artstation-btn {
+    background: #13AFF0;
+    color: white;
+    /* Effet "industrie créative" */
+    box-shadow: 0 2px 5px rgba(19, 175, 240, 0.3);
+  }
+.behance-btn { background: #1769FF; }
+.pinterest-btn { background: #E60023; }
+.reddit-btn { background: #FF5700; }
+.website-btn { background: #4285F4; }
+  .social-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .social-links {
+      flex-direction: column;
+    }
+  }
