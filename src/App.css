@@ -850,3 +850,10 @@ display: flex;
     background-attachment: scroll;
   }
 }
+@media screen and (max-width: 768px) {
+  .contact {
+    padding-left: 20px; /* décale vers la gauche */
+    padding-right: 10px;
+    text-align: left;
+  }
+}
