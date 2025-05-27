@@ -1,9 +1,8 @@
-import React from 'react';
-import Navbar from './components/Navbar'; // adapte le chemin si besoin
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
 import ContactUs from './components/ContactUs.jsx';
+import React from 'react';
 import logo from './logo.png';
 import bugattiBackground from './images/BUG_Ghidhaoui_1.jpg'; 
 import './App.css';
@@ -17,30 +16,26 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
   return (
     <div className="App">
       {/* Navbar */}
-      <nav className="navbar">
-        <img src={logo} className="App-logo" alt="logo" />
+     <nav className="navbar">
+  <img src={logo} className="App-logo" alt="logo" />
 
-        <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
-          <li><a href="#home" onClick={closeMenu}>Home</a></li>
-          <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
-          <li><a href="#about" onClick={closeMenu}>About</a></li>
-          <li><a href="#services" onClick={closeMenu}>Services</a></li>
-          <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
-        </ul>
+  <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
-        <div className="hamburger" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
+  <div className="hamburger" onClick={toggleMenu}>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
 
       
 
