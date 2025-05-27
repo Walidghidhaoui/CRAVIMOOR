@@ -104,7 +104,7 @@ body, html {
   height: 20vh;
   border-radius: 1rem;
   position: relative;
-  top: 300px; /* Plus de décalage inutile */
+  top: 200px; /* Plus de décalage inutile */
   
 }
 .hero-text h1 {
