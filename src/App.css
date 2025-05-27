@@ -711,6 +711,7 @@ display: flex;
 /* 2. Hero section responsive */
 @media (max-width: 768px) {
   .hero {
+     margin-top: 60px; /* augmente pour éviter le chevauchement */
     height: 90vh;
     padding: 2rem;
     flex-direction: column;
@@ -966,6 +967,4 @@ display: flex;
     margin-left: 750px;
     justify-content: flex-start;
   }
-
-  
 }

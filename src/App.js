@@ -37,18 +37,7 @@ function App() {
           <div></div>
         </div>
       </nav>
-      <div class="hamburger" onclick="toggleMenu()">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
-<nav class="nav-links" id="navLinks">
-  <a href="#home">Home</a>
-  <a href="#projects">Projects</a>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-</nav>
+      
 
       {/* Hero Section */}
       <section id="home" className="hero" style={{ backgroundImage: `url(${bugattiBackground})` }}>
