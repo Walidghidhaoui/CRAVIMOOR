@@ -986,7 +986,7 @@ body {
 header {
   position: absolute;
   top: 0;
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1042,7 +1042,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px -20px 20px;
+  padding: 100px 20px 20px;
 }
 
 .hero img {
@@ -1055,12 +1055,12 @@ header {
 .hero-text {
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.5);
-  padding: 20px 60px;
+  padding: 20px 30px;
   border-radius: 20px;
 }
 
 .hero-text h1 {
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 
@@ -1074,7 +1074,7 @@ header {
 
 .hero-text p {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 18px;
   color: #ccc;
 }
 
@@ -1130,7 +1130,7 @@ header {
 
 @media (max-width: 480px) {
   .logo {
-    max-width: 20px;
+    max-width: 120px;
   }
 
   .hero-text h1 {
@@ -1148,4 +1148,15 @@ header {
   .hero img {
     margin-left: -12%;
   }
+
+  .hero-text {
+    margin-top: 60px;
+  }
+
+  .contact {
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-left: -30px;
+  }
 }
+
