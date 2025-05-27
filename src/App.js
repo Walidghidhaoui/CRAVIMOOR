@@ -19,24 +19,24 @@ function App() {
   return (
     <div className="App">
       {/* Navbar */}
-      <nav className="navbar">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+     <nav className="navbar">
+  <img src={logo} className="App-logo" alt="logo" />
 
-        {/* Menu Burger */}
-        <div className="burger" onClick={toggleMenu}>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </nav>
+  <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div className="hamburger" onClick={toggleMenu}>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
       
 
       {/* Hero Section */}
