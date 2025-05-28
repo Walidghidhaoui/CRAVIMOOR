@@ -546,9 +546,9 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .nav-links {
