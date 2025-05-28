@@ -649,14 +649,14 @@ header {
 
 .our-services > p {
   grid-column: 1 / -1;
-  max-width: 100px;
+  max-width: 600px;
   text-align: center;
   margin: 0 auto 30px;
 }
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
   width: 100%;
   justify-content: center;
