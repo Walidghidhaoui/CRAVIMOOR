@@ -675,7 +675,7 @@ header {
   .contact {
     padding-left: 20px;
     padding-right: 10px;
-    margin-left: -20px;
+    margin-left: -30px;
   }
   
 }
@@ -710,10 +710,4 @@ header {
     padding-right: 5px;
     margin-left: -30px;
   }
-}
-@media (max-width: 1080px) {
-  .logo {
-    max-width: 10px;
-  }
-
 }
