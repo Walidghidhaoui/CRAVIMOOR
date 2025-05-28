@@ -630,6 +630,25 @@ header {
   color: #ccc;
 }
 
+/* === SERVICES SECTION === */
+.our-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  justify-items: center;
+}
+
+.our-services .service-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 1024px) {
   .nav-links {
@@ -676,7 +695,7 @@ header {
   .contact {
     padding-left: 20px;
     padding-right: 10px;
-    margin-left: -20px;
+    margin-left: -30px;
   }
 }
 
@@ -708,7 +727,7 @@ header {
   .contact {
     padding-left: 15px;
     padding-right: 5px;
-    margin-left: -30px;
+    margin-left: -35px;
   }
 }
 
@@ -739,6 +758,10 @@ header {
   .contact {
     padding-left: 10px;
     padding-right: 5px;
-    margin-left: -35px;
+    margin-left: -40px;
+  }
+
+  .our-services {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
