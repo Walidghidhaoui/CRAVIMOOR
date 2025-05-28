@@ -745,9 +745,14 @@ header {
   }
 
   .our-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+  .our-services {
   grid-template-columns: 1fr;
 }
-}
+
 .our-services .service-card {
   margin: 0 auto;
 }
