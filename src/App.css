@@ -709,9 +709,8 @@ header {
   }
 
   .contact {
-    padding-left: 15px;
-    padding-right: 5px;
-    margin-left: -35px;
+    padding: 10px 10px;
+    margin-left: -20px;
   }
 }
 
@@ -742,7 +741,7 @@ header {
   .contact {
     padding-left: 10px;
     padding-right: 5px;
-    margin-left: -40px;
+    margin-left: -25px;
   }
 
   .our-services {
