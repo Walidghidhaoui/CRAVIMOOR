@@ -642,12 +642,12 @@ header {
 .our-services .service-card {
   background: #111;
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 10px;
   text-align: center;
   width: 100%;
-  max-width: 200px;
+  max-width: 100px;
   
-  
+
   margin: 0 auto;
 
 
