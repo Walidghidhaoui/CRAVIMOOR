@@ -677,11 +677,14 @@ header {
     padding-right: 10px;
     margin-left: -20px;
   }
+  .logo {
+    max-width: 40px;
+  }
 }
 
 @media (max-width: 480px) {
   .logo {
-    max-width: 80px;
+    max-width: 120px;
   }
 
   .hero-text h1 {
