@@ -677,9 +677,7 @@ header {
     padding-right: 10px;
     margin-left: -20px;
   }
-  .logo {
-    max-width: 40px;
-  }
+  
 }
 
 @media (max-width: 480px) {
@@ -713,4 +711,9 @@ header {
     margin-left: -30px;
   }
 }
+@media (max-width: 1080px) {
+  .logo {
+    max-width: 10px;
+  }
 
+}
