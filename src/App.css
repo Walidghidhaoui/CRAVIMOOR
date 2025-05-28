@@ -63,7 +63,7 @@ body, html {
   z-index: 1000;
 }
 .navbar-logo {
-  height: 60px; /* Taille du logo */
+  height: 50px; /* Taille du logo */
 }
 .nav-links {
   list-style: none;
@@ -546,9 +546,9 @@ header {
 }
 
 .logo {
-  max-width: 10px;
+  max-width: 150px;
   height: auto;
-  margin-left: 0px;
+  margin-left: 20px;
 }
 
 .nav-links {
