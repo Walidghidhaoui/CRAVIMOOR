@@ -745,14 +745,15 @@ header {
   }
 
   .our-services {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    padding: 30px 10px;
+    justify-items: center;
   }
-}
 
-  .our-services {
-  grid-template-columns: 1fr;
-}
-
-.our-services .service-card {
-  margin: 0 auto;
+  .our-services .service-card {
+    width: 90%;
+    max-width: 300px;
+  }
 }
