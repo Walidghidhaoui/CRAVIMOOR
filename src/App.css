@@ -546,9 +546,9 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 10px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .nav-links {
@@ -708,6 +708,6 @@ header {
   .contact {
     padding-left: 15px;
     padding-right: 5px;
-    margin-left: -40px;
+    margin-left: -30px;
   }
 }
