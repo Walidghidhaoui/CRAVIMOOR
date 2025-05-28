@@ -633,21 +633,45 @@ header {
 /* === SERVICES SECTION === */
 .our-services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 40px 20px;
   justify-items: center;
+  text-align: center;
 }
 
-.our-services .service-card {
+.our-services h2 {
+  grid-column: 1 / -1;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.our-services > p {
+  grid-column: 1 / -1;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.service-card {
   background: #111;
   padding: 20px;
   border-radius: 12px;
   text-align: center;
   width: 100%;
-  max-width: 200px;
-  aspect-ratio: 1 / 1;
+  max-width: 250px;
+  height: 100%;
 }
+
 
 /* === RESPONSIVE === */
 @media (max-width: 1024px) {
@@ -681,7 +705,7 @@ header {
   }
 
   .hero-text {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .hero-text h2 {
@@ -721,16 +745,47 @@ header {
   }
 
   .hero-text {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .contact {
-    padding-left: 15px;
+    padding: 10px 10px;
+    margin-left: -20px;
+  }
+}
+
+/* === SPECIAL MOBILE OPTIMIZATION FOR SAMSUNG GALAXY A50 === */
+@media (max-width: 400px) {
+  .nav-links {
+    right: 10px;
+    padding: 10px 15px;
+  }
+
+  .hamburger {
+    margin-right: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 22px;
+  }
+
+  .hero img {
+    margin-left: -14%;
+  }
+
+  .hero-text {
+    margin-top: 70px;
+    padding: 15px 20px;
+  }
+
+  .contact {
+    padding-left: 10px;
     padding-right: 5px;
-    margin-left: -35px;
+    margin-left: -45px;
   }
 
   .our-services {
+    display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 30px 10px;
@@ -739,12 +794,12 @@ header {
 
   .our-services .service-card {
     width: 100%;
-    max-width: 180px;
+    max-width: 160px;
   }
 }
-
 @media (max-width: 320px) {
   .our-services {
     grid-template-columns: 1fr;
   }
 }
+
