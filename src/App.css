@@ -268,7 +268,7 @@ display: flex;
 .holographic-bar {
   position: absolute;
   top: 0;
-  left: -5;
+  left: 0;
   width: 100%;
   height: 4px;
   background: linear-gradient(90deg, #00ffe7, transparent, #00ffe7);
@@ -280,7 +280,7 @@ display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -5px auto;
 }
 
 .cyber-form {
