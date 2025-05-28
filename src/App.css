@@ -678,7 +678,6 @@ header {
     padding-right: 10px;
     margin-left: -20px;
   }
-  
 }
 
 @media (max-width: 480px) {
@@ -712,9 +711,9 @@ header {
     margin-left: -30px;
   }
 }
-@media (max-width: 400px) {
-  /* Tes styles spécifiques pour le Galaxy A50 et téléphones similaires */
 
+/* === SPECIAL MOBILE OPTIMIZATION FOR SAMSUNG GALAXY A50 === */
+@media (max-width: 400px) {
   .nav-links {
     right: 10px;
     padding: 10px 15px;
@@ -729,12 +728,17 @@ header {
   }
 
   .hero img {
-    margin-left: -140%;
+    margin-left: -14%;
+  }
+
+  .hero-text {
+    margin-top: 50px;
+    padding: 15px 20px;
   }
 
   .contact {
+    padding-left: 10px;
+    padding-right: 5px;
     margin-left: -35px;
   }
-
-  /* Ajoute d'autres ajustements si nécessaire */
 }
