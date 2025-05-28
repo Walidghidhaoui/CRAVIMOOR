@@ -631,7 +631,27 @@ header {
 }
 
 /* === SERVICES SECTION === */
+.our-services {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 40px 20px;
+  justify-items: center;
+}
 
+.our-services .service-card {
+  background: #111;
+  padding: 0px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  
+  margin: 0 auto;
+
+
+}
 
 /* === RESPONSIVE === */
 @media (max-width: 1024px) {
