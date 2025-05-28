@@ -752,19 +752,19 @@ header {
   }
 
   .hero-text {
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 15px 20px;
   }
 
   .contact {
     padding-left: 10px;
     padding-right: 5px;
-    margin-left: -25px;
+    margin-left: -45px;
   }
 
   .our-services {
     display: grid !important;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 30px 10px;
     justify-items: center;
