@@ -20,10 +20,8 @@
     gap: 3rem;
     max-width: 1400px;
     margin: 0 auto;
-    margin-left: -5px;
+    margin-left: -10px;
   }
-  
-
 
   /* Style du tableau */
   .contact-info-card {
