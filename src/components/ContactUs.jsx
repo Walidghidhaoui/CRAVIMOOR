@@ -23,10 +23,10 @@ const ContactUs = () => {
     };
 
     emailjs.send(
-      'votre_service_id',       // service_5kluta8
-      'votre_template_id',      // template_y7n64fd
+      'service_5kluta8',       // service_5kluta8
+      'template_y7n64fd',      // template_y7n64fd
       templateParams,
-      'votre_user_id'           // UU4qhYU51mSNj6wdR
+      'UU4qhYU51mSNj6wdR'           // UU4qhYU51mSNj6wdR
     )
     .then(() => {
       alert('Message envoyé avec succès à walidghidhawi@gmail.com !');
