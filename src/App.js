@@ -50,6 +50,7 @@ function App() {
       <section className="section" id="projects">
   <h2>Our Projects</h2>
   <p className="projects-intro">
+    
   __Showcasing Our Design Mastery__<br/>
   Discover a curated selection of our most impactful projects, where vision meets precision. From bold automotive concepts to intricate industrial solutions, each creation reflects our passion for innovation and excellence in 3D design.<br/>
     <div className="pointer-container">
@@ -72,7 +73,7 @@ function App() {
     <ProjectCard
       imageUrl="/images/CR0011.jpg"
       title="Cravimoor car Design"
-      description="CRAVIMOOR’s exclusive speed car — modeled in CATIA, rendered with KeyShot."
+      description="CRAVIMOOR’s exclusive speed car — modeled in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-car-cardesign-activity-7225503653850173440-p1d6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
@@ -84,19 +85,19 @@ function App() {
     <ProjectCard
       imageUrl="/images/BUG Ghidhaoui_6.jpg"
       title="Bugatti Mistral"
-      description="Concept design created in CATIA and visualized in KeyShot by CRAVIMOOR with high-end lighting details."
+      description="Concept design created in CATIA by CRAVIMOOR with high-end lighting details."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-3d-automobile-activity-7082782632421261312-UZ6Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/Lambo v1.jpg"
       title="Lamborghini"
-      description="Lamborghini concept car designed in CATIA with photorealistic rendering in KeyShot by CRAVIMOOR."
+      description="Lamborghini concept car designed in CATIA by CRAVIMOOR."
       linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:6968949712456437760?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/FSAE 01.webp"
       title="FSAE Design"
-      description="Formula SAE car 3D modeled from scratch using Catia by CRAVIMOOR."
+      description="Formula SAE car 3D modeled from scratch using CATIA by CRAVIMOOR."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-catia-innovation-activity-7292160292778659840-C7UE"
     />
     <ProjectCard
@@ -114,25 +115,25 @@ function App() {
     <ProjectCard
       imageUrl="/images/FCR16.jpg"
       title="Formula One CR7 Design"
-      description="Formula One CR7 — a bold fusion of speed, design, and precision by CRAVIMOOR using Blender."
+      description="A bold fusion of speed, design, and precision by CRAVIMOOR using Blender."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_engineering-machine-cad-activity-7241081845625331712-fZCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
      <ProjectCard
   imageUrl="/images/maybach.jpg"
-  title="Mercedes-Benz-Maybach Concept"
+  title="Maybach Concept"
   description="Luxury-class car model designed using Blender with realistic rendering."
   linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-automotivedesign-maybach-activity-7324555356871774208-zLOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
 />
 <ProjectCard
   imageUrl="/images/BMW_8_2020.246.webp"
   title="BMW_8 Concept"
-  description="High-end BMW 8 Series concept designed in CATIA with premium rendering in KeyShot."
+  description="High-end BMW 8 Series concept designed in CATIA."
   linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_bmw-design-catia-activity-6653589394882076672-MKXl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
 />
     <ProjectCard
       imageUrl="/images/Walda.jpg"
       title="Walda Car Design"
-      description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA, brought to life in KeyShot."
+      description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     
@@ -147,19 +148,19 @@ function App() {
    <ProjectCard
       imageUrl="/images/Roller Compactor.jpg"
       title="Roller Compactor"
-      description="Roller compactor fully modeled in CATIA and rendered with KeyShot for precision visualization."
+      description="Roller compactor fully modeled in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_denmark-construction-machinery-activity-7027352470775324673-Eb5J?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/airplane 01.461.jpg"
       title="Airplane concept design"
-      description="Airplane concept designed by CRAVIMOOR using CATIA and rendered with KeyShot."
+      description="Airplane concept designed by CRAVIMOOR using CATIA."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/Drone wg.jpg"
       title="Beautiful Drone"
-      description="Exclusive design by Walid Ghidhaoui. Software used: Catia v5 and keyshot ."
+      description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
@@ -171,19 +172,19 @@ function App() {
     <ProjectCard
       imageUrl="/images/CLOTH.jpg"
       title="clothing design"
-      description="Challenging the limits of CATIA V5 by exploring fashion design — where engineering meets creativity."
+      description="Challenging the limits of CATIA V5 by exploring fashion design."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_clothing-armaeze-designspiration-activity-7059448800939053056-1esG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/Convertible furniture.webp"
       title="Convertible furniture"
-      description="That moment when you want to take a nap while working 😴 Well."
+      description="That moment when you want to take a nap while working Well."
       linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7042525144816177153?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
       imageUrl="/images/cooling tower.jpg"
       title="cooling tower"
-      description="Design and manufacture of a cooling tower for the company Industrial Mécanique Maghrébine."
+      description="Design and manufacture of a cooling tower for the IMM company."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-catia-mechanical-activity-7030589033277747200-cjKI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
@@ -195,7 +196,7 @@ function App() {
     <ProjectCard
       imageUrl="/images/Filler cone.jpg"
       title="Filler cone"
-      description="Filler cone in the raw mill outside the original reject cone of the seperator using Solidworks."
+      description="Filler cone assembly using Solidworks."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-cement-design-activity-6950515986680692736-bPjf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard

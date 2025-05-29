@@ -1,8 +1,9 @@
 /* Conteneur principal */
 .project-card-wrapper {
     width: 100%;
-    max-width: 400px;
+    max-width: 330px;
     margin: 0 auto;
+   
   }
   
   /* Carte projet */
@@ -22,7 +23,7 @@
   .image-frame {
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 170px;
     overflow: hidden;
     border-bottom: 2px solid #00ffe7;
     cursor: pointer;
@@ -68,14 +69,15 @@
   
   /* Texte en dessous */
   .project-text {
-    padding: 20px;
+    padding: 10px;
     color: white;
+    
   }
   
   .project-text h3 {
     color: #00ffe7;
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   .project-text p {
@@ -83,3 +85,4 @@
     line-height: 1.5;
     font-size: 0.95rem;
   }
+ 
