@@ -136,7 +136,6 @@ function App() {
       description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
-    
   </div>
 </motion.section>
 
