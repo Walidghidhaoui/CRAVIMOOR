@@ -97,13 +97,13 @@ function App() {
     <ProjectCard
       imageUrl="/images/FSAE 01.webp"
       title="FSAE Design"
-      description="Formula SAE car 3D modeled from scratch using CATIA by CRAVIMOOR."
+      description="Formula SAE car 3D modeled from scratch using CATIA and Blender by CRAVIMOOR."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-catia-innovation-activity-7292160292778659840-C7UE"
     />
     <ProjectCard
       imageUrl="/images/FSAE 02.jpg"
       title="FSAE Design"
-      description="Formula SAE car 3D modeled from scratch using Blender by CRAVIMOOR."
+      description="Formula SAE car 3D modeled from scratch using Catia and Blender by CRAVIMOOR."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-animation-innovation-activity-7292461296988389378-uVey?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
     <ProjectCard
