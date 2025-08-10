@@ -119,13 +119,13 @@ function App() {
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_engineering-machine-cad-activity-7241081845625331712-fZCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
      <ProjectCard
-  imageUrl="/images/MAYBACH 136.WEBP"
+  imageUrl="/images/maybach2.WEBP"
   title="Maybach Concept"
   description="Luxury-class car model designed using Blender with realistic rendering."
   linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-automotivedesign-maybach-activity-7324555356871774208-zLOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
 />
 <ProjectCard
-  imageUrl="/images/MAYBACH 131.WEBP"
+  imageUrl="/images/maybach1.WEBP"
   title="Maybach Animation"
   description="Mercedes-Benz-Maybach-Cravimoor designed with realistic rendering and animation."
   linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_luxurycar-exclusivedesign-mercedes-activity-7359579014350405633-tkhV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
