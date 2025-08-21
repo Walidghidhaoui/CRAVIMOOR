@@ -142,6 +142,30 @@ function App() {
       description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
+    <ProjectCard
+  imageUrl="/images/maybach3.webp"
+  title="Maybach Cabriolet"
+  description="Luxury-class car model designed using Blender with realistic animation."
+  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7540337809689709880?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
+/>
+<ProjectCard
+  imageUrl="/images/maybach4.webp"
+  title="Maybach Blackwolf"
+  description="Luxury-class car model designed using Blender with realistic animation."
+  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7538782340005285176?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
+/>
+<ProjectCard
+  imageUrl="/images/maybach5.webp"
+  title="Maybach & Cravimoor"
+  description="Luxury-class car model designed Maybach and cravimoor car."
+  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539491861187104006?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
+/>
+<ProjectCard
+  imageUrl="/images/Cravi.webp"
+  title="Cravimoor car"
+  description="Luxury-class car model designed cravimoor car using blender."
+  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539830304639356166?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
+/>
   </div>
 </motion.section>
 
