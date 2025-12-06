@@ -10,8 +10,8 @@ const OurServices = () => {
         <div className="services-header">
           <h2>OUR SERVICES</h2>
           <p className="services-subtitle">
-            <strong>Proven Viral Designer</strong> - 3.2M+ TikTok Views & 20+ Years Visual Expertise
-          </p>
+  <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 3.2M+ TikTok Views
+</p>
           <p className="services-intro">
             From industrial equipment to viral TikTok sensations, I transform concepts into visual masterpieces 
             that captivate audiences and drive engagement.
