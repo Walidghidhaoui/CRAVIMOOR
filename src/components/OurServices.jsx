@@ -17,7 +17,7 @@ const OurServices = () => {
             that captivate audiences and drive engagement.
           </p>
         </div>
-
+ </div>
         {/* إحصائيات TikTok */}
         <div className="tiktok-stats">
           <h3>🚀 Viral Design Proven on TikTok</h3>
