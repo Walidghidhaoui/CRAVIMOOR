@@ -3,7 +3,7 @@ import './OurServices.css';
 
 const OurServices = () => {
   return (
-    <section className="our-services" id="services">
+    <section className="services" id="services">
       <div className="services-container">
         
         {/* Header */}
