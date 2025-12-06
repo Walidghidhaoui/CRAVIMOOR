@@ -58,62 +58,86 @@ const OurServices = () => {
         {/* الخدمات الرئيسية - 4 بطاقات */}
         <div className="service-grid">
           
-        {/* Service 1 - Conception Mécanique Industrielle */}
+       {/* Service 1 */}
 <div className="service-card highlight-card compact-card">
   <div className="service-icon">⚙️</div>
-  <h3>Conception Mécanique Industrielle</h3>
-  <p className="service-subtitle">Expert CAO 20+ ans | CATIA V5, SolidWorks, Blender</p>
+  <h3>Conception 3D Industrielle & Automobile</h3>
+  <p className="service-subtitle">Expert CATIA V5, SolidWorks, Blender - 20+ ans d'expérience</p>
   <ul className="service-list">
-    <li><strong>Automobile Premium:</strong> Design CATIA ISUZU, concepts Bugatti/Lamborghini (viral TikTok)</li>
-    <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs (Danemark), concasseurs ciment SOTACIB</li>
-    <li><strong>Dispositifs Médicaux:</strong> Formation SOFEMED certifiée - Normes européennes Classe IIb</li>
-    <li><strong>Design Produit:</strong> Planche de skate innovante "texture peau de requin" (client France)</li>
-    <li><strong>Solutions Techniques:</strong> Bibliothèque dissimulant gaines - design fonctionnel & esthétique</li>
-    <li><strong>Pièces Mécaniques:</strong> Modèles 3D production-ready pour fabrication</li>
+    <li><strong>Design Automobile:</strong> Concepts Bugatti, Lamborghini, Maybach - modélisation CATIA</li>
+    <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs, concasseurs, tours de refroidissement</li>
+    <li><strong>Design Produit:</strong> Planche de skate innovante (client France), pièces mécaniques</li>
+    <li><strong>Solutions Techniques:</strong> Bibliothèque dissimulant gaines techniques</li>
+    <li><strong>Modélisation 3D:</strong> Pour fabrication, présentation, documentation technique</li>
   </ul>
   <p className="service-note">
-    Expert technique certifié | Références internationales | Solutions validées industriellement
+    Spécialiste en modélisation 3D précise et fonctionnelle pour l'industrie
   </p>
 </div>
 
-         <p className="service-subtitle">"Expertise technique internationale - Clients France & Danemark"</p>
-<p>Modélisation 3D industrielle pour équipements lourds et solutions sur-mesure</p>
-<div className="client-example">
-  <strong>Référence clients:</strong> Fabricant danois de rouleaux compacteurs, client français design skateboard
-</div>
-<div className="client-example">
-  <strong>Délivrable:</strong> Modèles 3D prêts pour production et plans techniques détaillés
-</div>
-
-         <p className="service-subtitle">"Animation 3D Cinématique - Viral sur TikTok"</p>
-<p>Transformez vos produits en animations virales qui captivent 3.2M+ de vues</p>
-<div className="benefits">
-  <div className="benefit">✅ Design automobile viral (Bugatti, Lamborghini, Maybach)</div>
-  <div className="benefit">✅ Animation 3D professionnelle Blender</div>
-  <div className="benefit">✅ Preuve sociale: 47K+ likes TikTok</div>
+        {/* Service 2 */}
+<div className="service-card compact-card">
+  <div className="service-icon">🌍</div>
+  <h3>Pour Clients Internationaux</h3>
+  <p className="service-subtitle">Solutions techniques pour l'Europe</p>
+  <p>Modélisation 3D d'équipements industriels et produits techniques</p>
+  <div className="client-example">
+    <strong>Références:</strong> Fabricant danois de rouleaux compacteurs, design skateboard France
+  </div>
+  <div className="client-example">
+    <strong>Livrable:</strong> Modèles 3D prêts pour production et plans techniques
+  </div>
 </div>
 
-          <p className="service-subtitle">"Du croquis à la visualisation 3D industrielle"</p>
-<p>Prototypage visuel pour présentation investisseurs et campagnes crowdfunding</p>
-<div className="client-example">
-  <strong>Expertise certifiée:</strong> Master gestion maintenance industrielle + 10 ans SOTACIB
+        {/* Service 3 */}
+<div className="service-card compact-card">
+  <div className="service-icon">🎬</div>
+  <h3>Animation 3D & Design Viral</h3>
+  <p className="service-subtitle">Création de contenu performant sur les réseaux</p>
+  <p>Transformez vos produits en animations 3D qui attirent l'attention</p>
+  <div className="benefits">
+    <div className="benefit">✅ Design automobile performant sur TikTok</div>
+    <div className="benefit">✅ Animation 3D professionnelle Blender</div>
+    <div className="benefit">✅ Preuve: 3.2M+ vues, 47K+ likes</div>
+  </div>
 </div>
 
-       <div className="reason">
-  <strong>Expertise Industrielle Certifiée</strong>
-  <p>20 ans across automobile (ISUZU/GM), cimenterie (SOTACIB), médical (SOFEMED), design viral</p>
+          {/* Service 4 */}
+<div className="service-card compact-card">
+  <div className="service-icon">💡</div>
+  <h3>Prototypage & Visualisation</h3>
+  <p className="service-subtitle">Du croquis à la visualisation 3D</p>
+  <p>Création de modèles 3D pour présentation, crowdfunding, investisseurs</p>
+  <div className="client-example">
+    <strong>Pour:</strong> Entrepreneurs, inventeurs, startups techniques
+  </div>
+  <p className="service-note">
+    Précision technique + design attractif
+  </p>
+</div>
+
+      <div className="reason">
+  <strong>Expérience Industrielle</strong>
+  <p>20+ ans dans l'automobile, équipements industriels, design 3D</p>
 </div>
 <div className="reason">
-  <strong>Portfolio International Réel</strong>
-  <p>Clients France, Danemark, Espagne - Solutions techniques validées sur site</p>
+  <strong>Expertise Technique</strong>
+  <p>Spécialiste CATIA V5, SolidWorks, Blender - formation ingénierie mécanique</p>
 </div>
 <div className="reason">
-  <strong>Formation & Certification</strong>
-  <p>Master gestion maintenance + Formation médical ISO + Expert CATIA/SolidWorks</p>
+  <strong>Résultats Concrets</strong>
+  <p>Clients France, Danemark - Designs performants sur TikTok</p>
 </div>
 <div className="reason">
-  <strong>Preuve Sociale Digitale</strong>
-  <p>Designs virals: 3.2M vues TikTok, recommandation Dassault Systèmes</p>
+  <strong>Approche Pratique</strong>
+  <p>Solutions techniques fonctionnelles et esthétiques</p>
+</div>
+          <div className="cta-section">
+  <h3>Projet de Conception 3D?</h3>
+  <p>Discutons de votre besoin en modélisation technique ou design produit.</p>
+  <a href="#contact" className="cta-button">
+    Demander un Devis
+  </a>
 </div>
           </div>
         </div>
