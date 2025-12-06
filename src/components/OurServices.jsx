@@ -59,89 +59,62 @@ const OurServices = () => {
         <div className="service-grid">
           
           {/* Service 1 */}
-          <div className="service-card highlight-card compact-card">
-            <div className="service-icon">🎭</div>
-            <h3>Your Idea, My Visual Magic</h3>
-            <p className="service-subtitle">Specialized 3D Modeling Across Industries</p>
-            <ul className="service-list">
-              <li><strong>Aerospace & Automotive:</strong> My viral passion</li>
-              <li><strong>Industrial Equipment:</strong> Roller compactors, crushers</li>
-              <li><strong>Medical Devices:</strong> ISO-certified experience</li>
-              <li><strong>Consumer Products:</strong> French skateboard design</li>
-              <li><strong>Architectural Solutions:</strong> Hidden duct library</li>
-              <li><strong>Mechanical Parts:</strong> Production-ready assemblies</li>
-            </ul>
-            <p className="service-note">
-              My secret: 20+ years of understanding how things should look AND function visually
-            </p>
-          </div>
+<div className="service-card highlight-card compact-card">
+  <div className="service-icon">⚙️</div>
+  <h3>Conception Mécanique Industrielle</h3>
+  <p className="service-subtitle">20+ ans d'expertise en ingénierie & CAO</p>
+  <ul className="service-list">
+    <li><strong>Automobile & Aéronautique:</strong> Design CATIA pour ISUZU, concepts Bugatti/Lamborghini virals</li>
+    <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs, concasseurs ciment, tours de refroidissement</li>
+    <li><strong>Dispositifs Médicaux:</strong> Formation certifiée SOFEMED - Classe IIb</li>
+    <li><strong>Solutions Architecturales:</strong> Bibliothèque dissimulant gaines techniques</li>
+    <li><strong>Produits Grand Public:</strong> Planche de skate design "peau de requin"</li>
+    <li><strong>Pièces Mécaniques:</strong> Modélisation production-ready pour clients internationaux</li>
+  </ul>
+  <p className="service-note">
+    Expert certifié CATIA V5, SolidWorks, Blender | Portfolio international (France, Danemark, Espagne)
+  </p>
+</div>
 
-          {/* Service 2 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">🌍</div>
-            <h3>For International Clients</h3>
-            <p className="service-subtitle">"From Denmark with Precision"</p>
-            <p>Expert 3D Modeling for Heavy Equipment & Industrial Solutions</p>
-            <div className="client-example">
-              <strong>Real client example:</strong> Danish roller compactor manufacturer
-            </div>
-            <div className="client-example">
-              <strong>What I deliver:</strong> Production-ready 3D models
-            </div>
-          </div>
+         <p className="service-subtitle">"Expertise technique internationale - Clients France & Danemark"</p>
+<p>Modélisation 3D industrielle pour équipements lourds et solutions sur-mesure</p>
+<div className="client-example">
+  <strong>Référence clients:</strong> Fabricant danois de rouleaux compacteurs, client français design skateboard
+</div>
+<div className="client-example">
+  <strong>Délivrable:</strong> Modèles 3D prêts pour production et plans techniques détaillés
+</div>
 
-          {/* Service 3 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">🎬</div>
-            <h3>For Brands & Creators</h3>
-            <p className="service-subtitle">"Hollywood-Grade Visualization"</p>
-            <p>Make your products irresistible through cinematic 3D animation</p>
-            <div className="benefits">
-              <div className="benefit">✅ Perfect for e-commerce</div>
-              <div className="benefit">✅ Crowdfunding campaigns</div>
-              <div className="benefit">✅ Investor pitches</div>
-            </div>
-            <p className="service-note">
-              My edge: Decades of making complex designs look effortlessly beautiful
-            </p>
-          </div>
+         <p className="service-subtitle">"Animation 3D Cinématique - Viral sur TikTok"</p>
+<p>Transformez vos produits en animations virales qui captivent 3.2M+ de vues</p>
+<div className="benefits">
+  <div className="benefit">✅ Design automobile viral (Bugatti, Lamborghini, Maybach)</div>
+  <div className="benefit">✅ Animation 3D professionnelle Blender</div>
+  <div className="benefit">✅ Preuve sociale: 47K+ likes TikTok</div>
+</div>
 
-          {/* Service 4 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">💡</div>
-            <h3>For Inventors & Entrepreneurs</h3>
-            <p className="service-subtitle">"From French Skateboards to Viral Concepts"</p>
-            <p>Visual prototyping that captivates and converts</p>
-            <div className="client-example">
-              <strong>Real example:</strong> French skateboard with shark-skin texture
-            </div>
-            <p className="service-note">
-              My approach: Blend technical precision with artistic innovation
-            </p>
-          </div>
+          <p className="service-subtitle">"Du croquis à la visualisation 3D industrielle"</p>
+<p>Prototypage visuel pour présentation investisseurs et campagnes crowdfunding</p>
+<div className="client-example">
+  <strong>Expertise certifiée:</strong> Master gestion maintenance industrielle + 10 ans SOTACIB
+</div>
 
-        </div>
-
-        {/* قسم "Why Choose Me" */}
-        <div className="why-choose">
-          <h3>✅ Why Choose Cravimoor</h3>
-          <div className="reasons-grid">
-            <div className="reason">
-              <strong>20+ Years Across 4 Industries</strong>
-              <p>Medical → Automotive → Cement → Viral 3D Design</p>
-            </div>
-            <div className="reason">
-              <strong>International Portfolio</strong>
-              <p>France, Denmark, Spain, Tunisia - proven results</p>
-            </div>
-            <div className="reason">
-              <strong>Technical + Visual Mastery</strong>
-              <p>Rare combination of engineering insight and artistic vision</p>
-            </div>
-            <div className="reason">
-              <strong>Viral Design Intuition</strong>
-              <p>Creates content that performs (3.2M+ TikTok views)</p>
-            </div>
+       <div className="reason">
+  <strong>Expertise Industrielle Certifiée</strong>
+  <p>20 ans across automobile (ISUZU/GM), cimenterie (SOTACIB), médical (SOFEMED), design viral</p>
+</div>
+<div className="reason">
+  <strong>Portfolio International Réel</strong>
+  <p>Clients France, Danemark, Espagne - Solutions techniques validées sur site</p>
+</div>
+<div className="reason">
+  <strong>Formation & Certification</strong>
+  <p>Master gestion maintenance + Formation médical ISO + Expert CATIA/SolidWorks</p>
+</div>
+<div className="reason">
+  <strong>Preuve Sociale Digitale</strong>
+  <p>Designs virals: 3.2M vues TikTok, recommandation Dassault Systèmes</p>
+</div>
           </div>
         </div>
 
