@@ -267,7 +267,7 @@ function App() {
 </section>
 
       {/* Services Section */}
-      <Services />
+      <OurServices />
 
       
       {/* Contact Section */}
