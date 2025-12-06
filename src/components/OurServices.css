@@ -1,9 +1,7 @@
-/* OurServices.css - التنسيقات الجديدة المربعة */
-
 .our-services {
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
-  color: white;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .services-container {
@@ -11,349 +9,358 @@
   margin: 0 auto;
 }
 
+/* العنوان الرئيسي */
 .services-header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .services-header h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: #1a1a1a;
   margin-bottom: 15px;
-  background: linear-gradient(45deg, #00dbde, #fc00ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
 }
 
 .services-subtitle {
-  font-size: 1.2rem;
-  color: #00dbde;
-  margin-bottom: 15px;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
 .services-intro {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  color: #555;
   max-width: 800px;
   margin: 0 auto;
-  line-height: 1.5;
-  color: #ccc;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
 }
 
 /* إحصائيات TikTok */
 .tiktok-stats {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 900px;
-  border: 1px solid #333;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
 }
 
 .tiktok-stats h3 {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-  color: #00dbde;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tiktok-stats > p {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin: 20px 0;
-}
-
-@media (max-width: 768px) {
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
 }
 
 .stat-item {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 12px;
-  border-radius: 8px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 20px 15px;
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef;
 }
 
 .stat-item:hover {
-  transform: translateY(-3px);
-  background: rgba(0, 219, 222, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .stat-number {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #00dbde;
-  margin-bottom: 5px;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 8px;
+  line-height: 1;
 }
 
 .stat-label {
-  font-size: 0.75rem;
-  color: #aaa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
 }
 
 .stats-note {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 15px;
-  color: #00dbde;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e8f4ff;
+  border-left: 4px solid #007bff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: #333;
 }
 
-/* ====== البطاقات المربعة ====== */
+/* شبكة الخدمات */
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  margin: 40px auto;
-  max-width: 1000px;
+  margin: 60px 0;
 }
 
-/* بطاقات مربعة - نفس العرض والارتفاع */
 .service-card {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  padding: 25px;
-  border: 1px solid #333;
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
   transition: all 0.3s ease;
-  
-  /* يجعلها مربعة */
-  aspect-ratio: 1 / 1;
-  min-height: 320px;
-  max-height: 320px;
-  
-  /* تخطيط داخلي */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  
-  /* خطوط واضحة */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
-}
-
-.compact-card {
-  aspect-ratio: 1 / 1 !important;
-  min-height: 320px !important;
-  max-height: 320px !important;
-  padding: 20px !important;
+  height: 100%;
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
-  border-color: #00dbde;
-  box-shadow: 0 8px 20px rgba(0, 219, 222, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 .highlight-card {
-  background: rgba(0, 219, 222, 0.1);
-  border-color: #00dbde;
+  border-top: 6px solid #007bff;
+  background: linear-gradient(to bottom, #ffffff, #f8fbff);
 }
 
-/* الأيقونات */
+.compact-card {
+  padding: 25px;
+}
+
 .service-icon {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-/* العناوين - خط واضح وأبيض */
 .service-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-  color: #ffffff;
-  font-weight: bold;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6rem;
+  color: #1a1a1a;
+  margin-bottom: 12px;
   line-height: 1.3;
 }
 
 .service-subtitle {
-  font-size: 1rem;
-  color: #00dbde;
-  margin-bottom: 12px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.2;
-}
-
-/* النصوص - بيضاء وواضحة */
-.service-card p {
-  color: #ffffff;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 .service-list {
   list-style: none;
   padding: 0;
-  margin: 10px 0;
+  margin: 20px 0;
+  flex-grow: 1;
 }
 
 .service-list li {
-  padding: 4px 0;
-  color: #ffffff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.85rem;
-  line-height: 1.4;
-  font-weight: 500;
+  padding: 8px 0;
+  border-bottom: 1px dashed #eee;
+  color: #444;
+  font-size: 0.95rem;
 }
 
 .service-list li:last-child {
   border-bottom: none;
 }
 
-.client-example {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 8px;
-  border-radius: 6px;
-  margin: 8px 0;
-  border-left: 3px solid #00dbde;
-  font-size: 0.85rem;
-  color: #ffffff;
-  font-weight: 500;
+.service-list strong {
+  color: #1a1a1a;
 }
 
-.benefits {
+.client-example, .benefit {
+  background: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 10px;
   margin: 10px 0;
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .benefit {
-  padding: 5px 0;
-  color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.benefit::before {
+  content: "✓";
+  color: #28a745;
+  font-weight: bold;
 }
 
 .service-note {
-  font-size: 0.85rem;
-  color: #00dbde;
-  margin-top: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px dotted #ddd;
   font-style: italic;
-  font-weight: 500;
+  color: #555;
+  font-size: 0.95rem;
 }
 
-/* Why Choose Me */
+/* قسم Why Choose */
 .why-choose {
-  margin: 40px 0;
-  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 60px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .why-choose h3 {
-  font-size: 1.5rem;
-  margin-bottom: 25px;
-  color: #00dbde;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .reasons-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .service-grid {
-    grid-template-columns: 1fr;
-    max-width: 400px;
-  }
-  
-  .reasons-grid {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
 }
 
 .reason {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 15px;
-  border-radius: 12px;
-  border: 1px solid #333;
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 5px solid #007bff;
+  transition: transform 0.3s ease;
+}
+
+.reason:hover {
+  transform: translateY(-5px);
+  background: #f1f7ff;
 }
 
 .reason strong {
+  font-size: 1.2rem;
+  color: #1a1a1a;
   display: block;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-  color: #ffffff;
-  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 10px;
 }
 
 .reason p {
-  color: #ccc;
-  font-size: 0.9rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 /* Call-to-Action */
 .cta-section {
   text-align: center;
-  padding: 30px;
-  background: rgba(0, 219, 222, 0.1);
-  border-radius: 15px;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+  color: white;
+  border-radius: 25px;
   margin-top: 40px;
-  border: 2px solid #00dbde;
 }
 
 .cta-section h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  color: #ffffff;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .cta-section p {
-  font-size: 0.95rem;
-  color: #ccc;
-  margin-bottom: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: #ddd;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
 }
 
 .cta-button {
   display: inline-block;
-  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  background: linear-gradient(90deg, #007bff, #0056b3);
   color: white;
-  padding: 12px 30px;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 18px 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
-  border: none;
-  cursor: pointer;
-  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+  border: 2px solid transparent;
 }
 
 .cta-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 219, 222, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 123, 255, 0.4);
+  background: linear-gradient(90deg, #0056b3, #004494);
+  border-color: #fff;
 }
 
-/* التمرير للبطاقات الطويلة */
-.service-card {
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #00dbde #1a1a1a;
-}
-
-.service-card::-webkit-scrollbar {
-  width: 6px;
-}
-
-.service-card::-webkit-scrollbar-track {
-  background: #1a1a1a;
-  border-radius: 3px;
-}
-
-.service-card::-webkit-scrollbar-thumb {
-  background: #00dbde;
-  border-radius: 3px;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .our-services {
+    padding: 50px 15px;
+  }
+  
+  .services-header h2 {
+    font-size: 2.2rem;
+  }
+  
+  .services-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .services-intro {
+    font-size: 1rem;
+  }
+  
+  .tiktok-stats,
+  .why-choose {
+    padding: 25px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .stat-number {
+    font-size: 1.8rem;
+  }
+  
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .cta-section {
+    padding: 40px 20px;
+  }
+  
+  .cta-section h3 {
+    font-size: 1.8rem;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+  }
 }
