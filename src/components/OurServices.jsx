@@ -58,21 +58,21 @@ const OurServices = () => {
         {/* الخدمات الرئيسية - 4 بطاقات */}
         <div className="service-grid">
           
-          {/* Service 1 */}
+        {/* Service 1 - Conception Mécanique Industrielle */}
 <div className="service-card highlight-card compact-card">
   <div className="service-icon">⚙️</div>
   <h3>Conception Mécanique Industrielle</h3>
-  <p className="service-subtitle">20+ ans d'expertise en ingénierie & CAO</p>
+  <p className="service-subtitle">Expert CAO 20+ ans | CATIA V5, SolidWorks, Blender</p>
   <ul className="service-list">
-    <li><strong>Automobile & Aéronautique:</strong> Design CATIA pour ISUZU, concepts Bugatti/Lamborghini virals</li>
-    <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs, concasseurs ciment, tours de refroidissement</li>
-    <li><strong>Dispositifs Médicaux:</strong> Formation certifiée SOFEMED - Classe IIb</li>
-    <li><strong>Solutions Architecturales:</strong> Bibliothèque dissimulant gaines techniques</li>
-    <li><strong>Produits Grand Public:</strong> Planche de skate design "peau de requin"</li>
-    <li><strong>Pièces Mécaniques:</strong> Modélisation production-ready pour clients internationaux</li>
+    <li><strong>Automobile Premium:</strong> Design CATIA ISUZU, concepts Bugatti/Lamborghini (viral TikTok)</li>
+    <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs (Danemark), concasseurs ciment SOTACIB</li>
+    <li><strong>Dispositifs Médicaux:</strong> Formation SOFEMED certifiée - Normes européennes Classe IIb</li>
+    <li><strong>Design Produit:</strong> Planche de skate innovante "texture peau de requin" (client France)</li>
+    <li><strong>Solutions Techniques:</strong> Bibliothèque dissimulant gaines - design fonctionnel & esthétique</li>
+    <li><strong>Pièces Mécaniques:</strong> Modèles 3D production-ready pour fabrication</li>
   </ul>
   <p className="service-note">
-    Expert certifié CATIA V5, SolidWorks, Blender | Portfolio international (France, Danemark, Espagne)
+    Expert technique certifié | Références internationales | Solutions validées industriellement
   </p>
 </div>
 
