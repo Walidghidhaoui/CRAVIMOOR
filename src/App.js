@@ -48,16 +48,17 @@ function App() {
         </div>
       </section>
       <section className="section" id="projects">
-  <h2>Our Projects</h2>
-  <p className="projects-intro">
-    
-  __Showcasing Our Design Mastery__<br/>
-  Discover a curated selection of our most impactful projects, where vision meets precision. From bold automotive concepts to intricate industrial solutions, each creation reflects our passion for innovation and excellence in 3D design.<br/>
-    <div className="pointer-container">
-  <div className="pointer-text">Click on each image to View its content</div>
-  <div className="hand-pointer">👇</div>
-</div>
-  </p>
+ <h2>Featured Projects</h2>
+<p className="projects-intro">
+  <strong>From Viral TikTok Concepts to Industrial Solutions</strong><br/>
+  A showcase of 20+ years in mechanical design and 3D modeling, blending technical precision 
+  with viral visual appeal. Each project demonstrates expertise in CATIA, SolidWorks, and Blender 
+  for automotive, industrial, and product design applications.<br/>
+  <div className="pointer-container">
+    <div className="pointer-text">Click on each image to view project details</div>
+    <div className="hand-pointer">👇</div>
+  </div>
+</p>
 
       </section>
       <motion.section
