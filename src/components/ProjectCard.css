@@ -86,3 +86,51 @@
     font-size: 0.95rem;
   }
  
+/* الشارات الاجتماعية */
+.social-badge {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+
+.social-badge svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* شارة LinkedIn (الأزرق) */
+.linkedin-badge {
+  background-color: #0077B5;
+  box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);
+}
+
+.linkedin-badge:hover {
+  background-color: #004471;
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0, 119, 181, 0.5);
+}
+
+/* شارة TikTok (الأسود مع تأثير التوهج الوردي) */
+.tiktok-badge {
+  background-color: #000000;
+  box-shadow: 0 4px 12px rgba(255, 0, 80, 0.3);
+}
+
+.tiktok-badge:hover {
+  background-color: #FF0050;
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(255, 0, 80, 0.5);
+}
+
+.tiktok-badge svg {
+  fill: #fff;
+}
