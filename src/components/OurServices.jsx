@@ -8,10 +8,10 @@ const OurServices = () => {
         
         {/* Header */}
         <div className="services-header">
-          <h2>OUR SERVICES</h2>
-          <p className="services-subtitle">
-            <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views
-          </p>
+  <h2>SERVICES</h2>
+  <p className="services-subtitle">
+    <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views
+  </p>
           <p className="services-intro">
             From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
             that combine technical accuracy with visual appeal.
