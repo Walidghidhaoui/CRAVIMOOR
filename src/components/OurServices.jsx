@@ -6,22 +6,22 @@ const OurServices = () => {
     <section className="our-services" id="services">
       <div className="services-container">
         
-        {/* En-tête */}
+        {/* Header */}
         <div className="services-header">
           <h2>OUR SERVICES</h2>
           <p className="services-subtitle">
             <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views
           </p>
           <p className="services-intro">
-            From industrial equipment to viral TikTok sensations, I transform concepts into visual masterpieces 
-            that captivate audiences and drive engagement.
+            From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
+            that combine technical accuracy with visual appeal.
           </p>
         </div>
 
-        {/* Statistiques TikTok */}
+        {/* TikTok Stats */}
         <div className="tiktok-stats">
-          <h3>🚀 Viral Design Proven on TikTok</h3>
-          <p>My designs don't just look good - they capture attention at scale.</p>
+          <h3>🚀 Design That Performs on Social Media</h3>
+          <p>My automotive designs have proven viral appeal and engagement.</p>
           
           <div className="stats-grid">
             <div className="stat-item">
@@ -51,68 +51,68 @@ const OurServices = () => {
           </div>
           
           <p className="stats-note">
-            <strong>What this means for you:</strong> I create designs that naturally perform well on social media.
+            <strong>What this means for you:</strong> Designs that capture attention and drive engagement.
           </p>
         </div>
 
-        {/* Services - 4 cartes */}
+        {/* Services - 4 Cards */}
         <div className="service-grid">
           
           {/* Service 1 */}
           <div className="service-card highlight-card compact-card">
             <div className="service-icon">⚙️</div>
-            <h3>Conception 3D Industrielle & Automobile</h3>
-            <p className="service-subtitle">Expert CATIA V5, SolidWorks, Blender - 20+ ans d'expérience</p>
+            <h3>Industrial & Automotive 3D Design</h3>
+            <p className="service-subtitle">Expert in CATIA V5, SolidWorks, Blender - 20+ Years Experience</p>
             <ul className="service-list">
-              <li><strong>Design Automobile:</strong> Concepts Bugatti, Lamborghini, Maybach - modélisation CATIA</li>
-              <li><strong>Équipements Industriels:</strong> Rouleaux compacteurs, concasseurs, tours de refroidissement</li>
-              <li><strong>Design Produit:</strong> Planche de skate innovante (client France), pièces mécaniques</li>
-              <li><strong>Solutions Techniques:</strong> Bibliothèque dissimulant gaines techniques</li>
-              <li><strong>Modélisation 3D:</strong> Pour fabrication, présentation, documentation technique</li>
+              <li><strong>Automotive Design:</strong> Bugatti, Lamborghini, Maybach concepts - CATIA modeling</li>
+              <li><strong>Industrial Equipment:</strong> Roller compactors, crushers, cooling towers</li>
+              <li><strong>Product Design:</strong> Innovative skateboard (French client), mechanical parts</li>
+              <li><strong>Technical Solutions:</strong> Library concealing ductwork</li>
+              <li><strong>3D Modeling:</strong> For manufacturing, presentation, technical documentation</li>
             </ul>
             <p className="service-note">
-              Spécialiste en modélisation 3D précise et fonctionnelle pour l'industrie
+              Specialist in precise, functional 3D modeling for industry
             </p>
           </div>
 
           {/* Service 2 */}
           <div className="service-card compact-card">
             <div className="service-icon">🌍</div>
-            <h3>Pour Clients Internationaux</h3>
-            <p className="service-subtitle">Solutions techniques pour l'Europe</p>
-            <p>Modélisation 3D d'équipements industriels et produits techniques</p>
+            <h3>For International Clients</h3>
+            <p className="service-subtitle">Technical Solutions for Europe</p>
+            <p>3D modeling of industrial equipment and technical products</p>
             <div className="client-example">
-              <strong>Références:</strong> Fabricant danois de rouleaux compacteurs, design skateboard France
+              <strong>Client References:</strong> Danish roller compactor manufacturer, French skateboard design
             </div>
             <div className="client-example">
-              <strong>Livrable:</strong> Modèles 3D prêts pour production et plans techniques
+              <strong>Deliverables:</strong> Production-ready 3D models and technical drawings
             </div>
           </div>
 
           {/* Service 3 */}
           <div className="service-card compact-card">
             <div className="service-icon">🎬</div>
-            <h3>Animation 3D & Design</h3>
-            <p className="service-subtitle">Animation 3D Professionnelle</p>
-            <p>Animation 3D de qualité pour présenter vos produits</p>
+            <h3>3D Animation & Social Media Design</h3>
+            <p className="service-subtitle">High-Performance Social Media Content</p>
+            <p>Transform your products into engaging 3D animations</p>
             <div className="benefits">
-              <div className="benefit">✅ Design automobile performant</div>
-              <div className="benefit">✅ Animation 3D Blender</div>
-              <div className="benefit">✅ 4.8M+ vues TikTok</div>
+              <div className="benefit">✅ Viral automotive designs on TikTok</div>
+              <div className="benefit">✅ Professional Blender 3D animation</div>
+              <div className="benefit">✅ Proven: 4.8M+ views, 81K+ likes</div>
             </div>
           </div>
 
           {/* Service 4 */}
           <div className="service-card compact-card">
             <div className="service-icon">💡</div>
-            <h3>Prototypage & Visualisation</h3>
-            <p className="service-subtitle">Prototypage & Visualisation 3D</p>
-            <p>Création de modèles 3D pour présentation et développement</p>
+            <h3>Prototyping & Visualization</h3>
+            <p className="service-subtitle">From Sketch to 3D Visualization</p>
+            <p>Create 3D models for presentations, crowdfunding, investors</p>
             <div className="client-example">
-              <strong>Pour:</strong> Entrepreneurs, startups techniques
+              <strong>For:</strong> Entrepreneurs, inventors, technical startups
             </div>
             <p className="service-note">
-              Précision technique + design attractif
+              Technical precision + attractive design
             </p>
           </div>
 
@@ -123,30 +123,30 @@ const OurServices = () => {
           <h3>✅ Why Choose Cravimoor</h3>
           <div className="reasons-grid">
             <div className="reason">
-              <strong>Expérience Industrielle</strong>
-              <p>20+ ans dans l'automobile, équipements industriels, design 3D</p>
+              <strong>Industrial Experience</strong>
+              <p>20+ years in automotive, industrial equipment, 3D design</p>
             </div>
             <div className="reason">
-              <strong>Expertise Technique</strong>
-              <p>Spécialiste CATIA V5, SolidWorks, Blender - formation ingénierie mécanique</p>
+              <strong>Technical Expertise</strong>
+              <p>Specialist in CATIA V5, SolidWorks, Blender - mechanical engineering background</p>
             </div>
             <div className="reason">
-              <strong>Résultats Concrets</strong>
-              <p>Clients France, Danemark - Designs performants sur TikTok</p>
+              <strong>Proven Results</strong>
+              <p>Clients in France, Denmark - High-performing TikTok designs</p>
             </div>
             <div className="reason">
-              <strong>Approche Pratique</strong>
-              <p>Solutions techniques fonctionnelles et esthétiques</p>
+              <strong>Practical Approach</strong>
+              <p>Functional and aesthetic technical solutions</p>
             </div>
           </div>
         </div>
 
-        {/* Call-to-Action (un seul!) */}
+        {/* Call-to-Action */}
         <div className="cta-section">
-          <h3>Projet de Conception 3D?</h3>
-          <p>Discutons de votre besoin en modélisation technique ou design produit.</p>
+          <h3>3D Design Project?</h3>
+          <p>Let's discuss your technical modeling or product design needs.</p>
           <a href="#contact" className="cta-button">
-            Demander un Devis
+            Request a Quote
           </a>
         </div>
 
