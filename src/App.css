@@ -746,7 +746,21 @@ header {
     white-space: nowrap; /* texte sur une seule ligne */
     text-align: center;
   }
+/* ===== OVERRIDE POUR OUR SERVICES ===== */
+.our-services {
+  all: revert !important;
+}
 
+.our-services .service-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.our-services .service-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
 }
 
 
