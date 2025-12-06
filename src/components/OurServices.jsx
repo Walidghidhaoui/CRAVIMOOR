@@ -44,10 +44,10 @@ const OurServices = () => {
               <div className="stat-number">2,590</div>
               <div className="stat-label">Shares</div>
             </div>
-           <div className="stat-item">
-  <div className="stat-number">Monetized</div>
-  <div className="stat-label">Creator Account</div>
-</div>
+            <div className="stat-item">
+              <div className="stat-number">Monetized</div>
+              <div className="stat-label">Creator Account</div>
+            </div>
           </div>
           
           <p className="stats-note">
@@ -55,11 +55,11 @@ const OurServices = () => {
           </p>
         </div>
 
-        {/* الخدمات الرئيسية - 4 بطاقات بدلاً من 6 */}
+        {/* الخدمات الرئيسية - 4 بطاقات */}
         <div className="service-grid">
           
-          {/* Service 1 - Your Idea, My Visual Magic */}
-          <div className="service-card highlight-card">
+          {/* Service 1 */}
+          <div className="service-card highlight-card compact-card">
             <div className="service-icon">🎭</div>
             <h3>Your Idea, My Visual Magic</h3>
             <p className="service-subtitle">Specialized 3D Modeling Across Industries</p>
@@ -76,8 +76,8 @@ const OurServices = () => {
             </p>
           </div>
 
-          {/* Service 2 - For International Clients */}
-          <div className="service-card">
+          {/* Service 2 */}
+          <div className="service-card compact-card">
             <div className="service-icon">🌍</div>
             <h3>For International Clients</h3>
             <p className="service-subtitle">"From Denmark with Precision"</p>
@@ -90,8 +90,8 @@ const OurServices = () => {
             </div>
           </div>
 
-          {/* Service 3 - For Brands & Creators */}
-          <div className="service-card">
+          {/* Service 3 */}
+          <div className="service-card compact-card">
             <div className="service-icon">🎬</div>
             <h3>For Brands & Creators</h3>
             <p className="service-subtitle">"Hollywood-Grade Visualization"</p>
@@ -106,8 +106,8 @@ const OurServices = () => {
             </p>
           </div>
 
-          {/* Service 4 - For Inventors & Entrepreneurs */}
-          <div className="service-card">
+          {/* Service 4 */}
+          <div className="service-card compact-card">
             <div className="service-icon">💡</div>
             <h3>For Inventors & Entrepreneurs</h3>
             <p className="service-subtitle">"From French Skateboards to Viral Concepts"</p>
