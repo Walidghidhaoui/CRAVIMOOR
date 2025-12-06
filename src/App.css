@@ -746,7 +746,54 @@ header {
     white-space: nowrap; /* texte sur une seule ligne */
     text-align: center;
   }
+/* ===== FIX OUR SERVICES OVERRIDE ===== */
+.our-services {
+  all: unset !important;
+  display: block !important;
+  visibility: visible !important;
+}
 
+.our-services * {
+  all: revert !important;
+}
+
+/* إعادة تعيين التنسيقات القديمة */
+.service-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 30px !important;
+  margin: 40px auto !important;
+  max-width: 1000px !important;
+}
+
+.service-card {
+  all: unset !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  aspect-ratio: 1 / 1 !important;
+  min-height: 320px !important;
+  max-height: 320px !important;
+  padding: 25px !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 15px !important;
+  border: 1px solid #333 !important;
+  overflow: hidden !important;
+}
+
+.service-card h3 {
+  color: white !important;
+  font-size: 1.4rem !important;
+  font-family: 'Orbitron', sans-serif !important;
+  font-weight: bold !important;
+}
+
+.service-card p,
+.service-card li,
+.service-card .service-subtitle {
+  color: white !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
 }
 
 
