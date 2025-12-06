@@ -746,7 +746,37 @@ header {
     white-space: nowrap; /* texte sur une seule ligne */
     text-align: center;
   }
+/* ===== FORCE SQUARE CARDS ===== */
+.our-services .service-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 25px !important;
+  margin: 40px auto !important;
+  max-width: 1000px !important;
+}
 
+.our-services .service-card {
+  aspect-ratio: 1 / 1 !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
+  width: 100% !important;
+  padding: 25px !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 15px !important;
+}
+
+/* الخطوط واضحة */
+.our-services .service-card h3 {
+  font-size: 1.3rem !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+.our-services .service-card * {
+  color: white !important;
+  font-weight: 500 !important;
+}
 }
 
 
