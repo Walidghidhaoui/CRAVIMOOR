@@ -139,10 +139,8 @@ const OurServices = () => {
     Demander un Devis
   </a>
 </div>
-          </div>
-        </div>
-
-        {/* Call-to-Action */}
+  
+  {/* Call-to-Action */}
         <div className="cta-section">
           <h3>🚀 From Your Sketch to Stunning 3D</h3>
           <p>Whether it's industrial equipment or the next viral TikTok concept,<br/>
