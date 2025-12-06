@@ -242,13 +242,29 @@ function App() {
 
       {/* About Section */}
       <section className="section" id="about">
-        <h2>About Us</h2>
-        <p>Crazy Vision Modeling Organisation.
-
-Cravimoor is a futuristic design studio founded by Walid Ghidhaoui, specializing in visionary modeling and advanced concept development. Operating as a 100% remote studio, Cravimoor is committed to pushing the boundaries of industrial design and 3D innovation. Driven by a passion for creativity and engineering excellence, Cravimoor transforms bold ideas into tangible, high-impact solutions. Whether crafting cutting-edge concept cars or revolutionizing industrial systems, we approach every project with precision, originality, and purpose.
-
-As a Crazy Vision Modeling Organisation, Cravimoor is not just about design it’s about turning the extraordinary into reality. With a growing network of collaborators and a solid foundation of over 20 years of experience, the studio is evolving into a global reference in high-end modeling and future-forward design..</p>
-      </section>
+  <h2>About Me</h2>
+  <p>
+    <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong><br/><br/>
+    
+    With over 20 years of hands-on experience in mechanical design and industrial engineering, 
+    I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
+    
+    My career spans multiple industries:
+    • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM
+    • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant
+    • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design
+    • <strong>Freelance Design:</strong> International clients in France and Denmark<br/><br/>
+    
+    What sets my approach apart is the combination of:
+    • <strong>Technical precision</strong> from industrial engineering background
+    • <strong>Visual storytelling</strong> proven by 4.8M+ TikTok views
+    • <strong>Practical experience</strong> with real-world manufacturing constraints<br/><br/>
+    
+    Currently completing a Master's in Industrial Systems Maintenance Management, 
+    I bridge the gap between theoretical engineering and practical, 
+    production-ready 3D design.
+  </p>
+</section>
 
       {/* Services Section */}
       <OurServices />
