@@ -432,92 +432,200 @@ display: flex;
 
 /* === OurServices Section Compatibility === */
 
-/* تأكد أن تنسيقاتنا الجديدة تعمل مع تصميمك الحالي */
 .our-services {
   text-align: center;
-  padding: 80px 20px !important; /* مهمة! تجاوز التنسيقات القديمة */
+  padding: 60px 20px !important; /* أقل تباعد */
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%) !important;
-  max-width: 1600px;
-  margin: 4rem auto !important;
+  max-width: 1400px; /* أقل عرض */
+  margin: 3rem auto !important; /* أقل تباعد */
 }
 
-/* تأكد أن الـ h2 يعمل مع التدرج الجديد */
 .our-services h2 {
-  font-size: 3rem !important;
+  font-size: 2.5rem !important; /* أصغر */
   background: linear-gradient(45deg, #00dbde, #fc00ff) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
-  margin-bottom: 20px !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  margin-bottom: 15px !important;
 }
 
-/* تعديل شبكة الخدمات القديمة لتتلاءم مع الجديدة */
+/* شبكة الخدمات - تصغير البطاقات */
 .service-grid {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important;
-  gap: 30px !important;
-  margin: 50px 0 !important;
-  width: 100% !important;
-  max-width: 1200px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  gap: 25px !important; /* تباعد أقل */
+  margin: 30px auto !important; /* أقل تباعد */
+  width: 95% !important; /* أقل عرض */
+  max-width: 1000px !important; /* أصغر */
 }
 
-/* بطاقات الخدمات الجديدة */
+/* تصغير البطاقات نفسها */
 .service-card {
   background: rgba(255, 255, 255, 0.05) !important;
-  border-radius: 15px !important;
-  padding: 30px !important;
+  border-radius: 12px !important;
+  padding: 20px !important; /* أقل حشو */
   border: 1px solid #333 !important;
   transition: all 0.3s ease !important;
   text-align: left !important;
   height: auto !important;
-  min-height: 300px !important;
+  min-height: 220px !important; /* أقل ارتفاع */
+  max-height: 280px !important; /* حد أقصى */
+  overflow: hidden; /* منع تجاوز المحتوى */
 }
 
 .service-card:hover {
-  transform: translateY(-10px) !important;
+  transform: translateY(-8px) !important; /* رفع أقل */
   border-color: #00dbde !important;
-  box-shadow: 0 10px 30px rgba(0, 219, 222, 0.2) !important;
+  box-shadow: 0 8px 20px rgba(0, 219, 222, 0.2) !important;
 }
 
-/* إصلاحات للريسبونسيف */
-@media (max-width: 1024px) {
-  .service-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 20px !important;
-  }
+/* تصغير العناصر داخل البطاقة */
+.service-card h3 {
+  font-size: 1.2rem !important; /* أصغر */
+  margin-bottom: 8px !important;
+  line-height: 1.3 !important;
 }
 
+.service-subtitle {
+  font-size: 0.9rem !important; /* أصغر */
+  margin-bottom: 10px !important;
+  line-height: 1.2 !important;
+}
+
+.service-list {
+  margin: 8px 0 !important;
+  padding-left: 15px !important;
+}
+
+.service-list li {
+  font-size: 0.8rem !important; /* أصغر */
+  padding: 3px 0 !important;
+  line-height: 1.2 !important;
+}
+
+.client-example {
+  font-size: 0.8rem !important;
+  padding: 6px !important;
+  margin: 6px 0 !important;
+}
+
+.service-note {
+  font-size: 0.75rem !important; /* أصغر */
+  margin-top: 10px !important;
+  line-height: 1.2 !important;
+}
+
+/* إحصائيات TikTok - تصغير */
+.tiktok-stats {
+  padding: 20px !important;
+  margin: 25px auto !important;
+  max-width: 900px !important;
+}
+
+.tiktok-stats h3 {
+  font-size: 1.4rem !important;
+}
+
+.stats-grid {
+  gap: 15px !important;
+  margin: 20px 0 !important;
+}
+
+.stat-item {
+  padding: 12px !important;
+}
+
+.stat-number {
+  font-size: 1.5rem !important;
+}
+
+.stat-label {
+  font-size: 0.75rem !important;
+}
+
+/* Why Choose - تصغير */
+.why-choose {
+  margin: 40px 0 !important;
+}
+
+.why-choose h3 {
+  font-size: 1.5rem !important;
+  margin-bottom: 25px !important;
+}
+
+.reasons-grid {
+  gap: 20px !important;
+  max-width: 900px !important;
+}
+
+.reason {
+  padding: 15px !important;
+}
+
+.reason strong {
+  font-size: 1rem !important;
+}
+
+.reason p {
+  font-size: 0.8rem !important;
+}
+
+/* CTA - تصغير */
+.cta-section {
+  padding: 30px !important;
+  margin-top: 40px !important;
+}
+
+.cta-section h3 {
+  font-size: 1.5rem !important;
+  margin-bottom: 15px !important;
+}
+
+.cta-section p {
+  font-size: 0.95rem !important;
+  margin-bottom: 20px !important;
+}
+
+.cta-button {
+  padding: 12px 30px !important;
+  font-size: 1rem !important;
+}
+
+/* للشاشات الصغيرة */
 @media (max-width: 768px) {
   .service-grid {
     grid-template-columns: 1fr !important;
-    gap: 25px !important;
+    gap: 20px !important;
+    width: 90% !important;
   }
   
-  .our-services {
-    padding: 60px 15px !important;
+  .service-card {
+    min-height: auto !important;
+    max-height: none !important;
   }
   
-  .our-services h2 {
-    font-size: 2.5rem !important;
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 }
 
 @media (max-width: 480px) {
-  .service-grid {
-    gap: 20px !important;
-  }
-  
-  .service-card {
-    padding: 20px !important;
+  .our-services {
+    padding: 40px 15px !important;
   }
   
   .our-services h2 {
     font-size: 2rem !important;
   }
+  
+  .service-card {
+    padding: 15px !important;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
+
 /* Responsive */
 @media (max-width: 768px) {
   .section h2 {
