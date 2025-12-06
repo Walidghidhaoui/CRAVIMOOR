@@ -44,10 +44,10 @@ const OurServices = () => {
               <div className="stat-number">2,590</div>
               <div className="stat-label">Shares</div>
             </div>
-            <div className="stat-item">
-              <div className="stat-number">0.01</div>
-              <div className="stat-label">TikTok Rewards</div>
-            </div>
+           <div className="stat-item">
+  <div className="stat-number">Monetized</div>
+  <div className="stat-label">Creator Account</div>
+</div>
           </div>
           
           <p className="stats-note">
