@@ -838,7 +838,22 @@ header {
     white-space: nowrap; /* texte sur une seule ligne */
     text-align: center;
   }
+/* Override pour Our Services */
+.our-services h2 {
+  content: "SERVICES" !important;
+}
 
+.our-services h2:after {
+  content: "SERVICES" !important;
+  display: block !important;
+}
+
+h2 {
+  all: unset !important;
+  display: block !important;
+  font-size: 2.5rem !important;
+  color: #00ffe7 !important;
+}
 }
   
 
