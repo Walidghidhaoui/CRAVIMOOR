@@ -385,4 +385,19 @@
   .stats-grid {
     grid-template-columns: 1fr;
   }
+  /* Force "SERVICES" au lieu de "OUR SERVICES" */
+.services-header h2::after {
+  content: "SERVICES" !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+.services-header h2 {
+  font-size: 0 !important;
+  visibility: hidden !important;
+}
+
+.services-header h2:before {
+  content: "" !important;
+}
 }
