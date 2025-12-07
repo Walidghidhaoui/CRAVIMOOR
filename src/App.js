@@ -249,20 +249,25 @@ function App() {
     With over 20 years of hands-on experience in mechanical design and industrial engineering, 
     I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
     
-    My career spans multiple industries:
-    • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM
-    • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant
-    • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design
-    • <strong>Freelance Design:</strong> International clients in France and Denmark<br/><br/>
+    <strong>Professional Background:</strong><br/>
+    • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM<br/>
+    • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant<br/>
+    • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
+    • <strong>Freelance Design:</strong> International clients in France, Denmark, and Pakistan<br/><br/>
     
-    What sets my approach apart is the combination of:
-    • <strong>Technical precision</strong> from industrial engineering background
-    • <strong>Visual storytelling</strong> proven by 4.8M+ TikTok views
-    • <strong>Practical experience</strong> with real-world manufacturing constraints<br/><br/>
+    <strong>Education & Certification:</strong><br/>
+    • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
+    • Technical engineering degree in Mechanical Engineering<br/>
+    • Certified expertise in CATIA V5, SolidWorks, and Blender<br/><br/>
     
-    Currently completing a Master's in Industrial Systems Maintenance Management, 
+    <strong>What sets my approach apart:</strong><br/>
+    • <strong>Technical precision</strong> from industrial engineering background<br/>
+    • <strong>Viral design appeal</strong> - 4.8M+ TikTok views in just 3 months<br/>
+    • <strong>Practical experience</strong> with real-world manufacturing constraints<br/>
+    
     I bridge the gap between theoretical engineering and practical, 
-    production-ready 3D design.
+    production-ready 3D design, delivering solutions that are both 
+    technically sound and visually compelling.
   </p>
 </section>
 
