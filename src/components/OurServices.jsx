@@ -10,8 +10,8 @@ const OurServices = () => {
         <div className="services-header">
   <h2>SERVICES</h2>
   <p className="services-subtitle">
-    <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views
-  </p>
+  <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views in 3 Months
+</p>
           <p className="services-intro">
             From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
             that combine technical accuracy with visual appeal.
@@ -19,42 +19,41 @@ const OurServices = () => {
         </div>
 
         {/* TikTok Stats */}
-        <div className="tiktok-stats">
-          <h3>🚀 Design That Performs on Social Media</h3>
-          <p>My automotive designs have proven viral appeal and engagement.</p>
-          
-          <div className="stats-grid">
-            <div className="stat-item">
-              <div className="stat-number">4.8M+</div>
-              <div className="stat-label">Publication Views</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">15K</div>
-              <div className="stat-label">Profile Views</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">81K+</div>
-              <div className="stat-label">Likes</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">4,112</div>
-              <div className="stat-label">Comments</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">4,291</div>
-              <div className="stat-label">Shares</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">Monetized</div>
-              <div className="stat-label">Creator Account</div>
-            </div>
-          </div>
-          
-          <p className="stats-note">
-            <strong>What this means for you:</strong> Designs that capture attention and drive engagement.
-          </p>
-        </div>
-
+<div className="tiktok-stats">
+  <h3>🚀 Viral Design Performance</h3>
+  <p>My automotive designs gained 4.8M+ views in just 3 months, proving viral appeal.</p>
+  
+  <div className="stats-grid">
+    <div className="stat-item">
+      <div className="stat-number">4.8M+</div>
+      <div className="stat-label">Views in 3 Months</div> {/* ← MODIFIÉ */}
+    </div>
+    <div className="stat-item">
+      <div className="stat-number">81K+</div>
+      <div className="stat-label">Likes</div>
+    </div>
+    <div className="stat-item">
+      <div className="stat-number">4,291</div>
+      <div className="stat-label">Shares</div>
+    </div>
+    <div className="stat-item">
+      <div className="stat-number">15K</div>
+      <div className="stat-label">Profile Views</div>
+    </div>
+    <div className="stat-item">
+      <div className="stat-number">4,112</div>
+      <div className="stat-label">Comments</div>
+    </div>
+    <div className="stat-item">
+      <div className="stat-number">Monetized</div>
+      <div className="stat-label">Creator Account</div>
+    </div>
+  </div>
+  
+  <p className="stats-note">
+    <strong>What this means:</strong> Designs that capture attention quickly and drive engagement.
+  </p>
+</div>
         {/* Services - 4 Cards */}
         <div className="service-grid">
           
@@ -90,17 +89,17 @@ const OurServices = () => {
           </div>
 
           {/* Service 3 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">🎬</div>
-            <h3>3D Animation & Social Media Design</h3>
-            <p className="service-subtitle">High-Performance Social Media Content</p>
-            <p>Transform your products into engaging 3D animations</p>
-            <div className="benefits">
-              <div className="benefit">✅ Viral automotive designs on TikTok</div>
-              <div className="benefit">✅ Professional Blender 3D animation</div>
-              <div className="benefit">✅ Proven: 4.8M+ views, 81K+ likes</div>
-            </div>
-          </div>
+<div className="service-card compact-card">
+  <div className="service-icon">🎬</div>
+  <h3>3D Animation & Social Media Design</h3>
+  <p className="service-subtitle">High-Performance Social Media Content</p>
+  <p>Transform your products into engaging 3D animations</p>
+  <div className="benefits">
+    <div className="benefit">✅ Viral automotive designs on TikTok</div>
+    <div className="benefit">✅ 4.8M+ views in 3 months - proven appeal</div> {/* ← AJOUTÉ */}
+    <div className="benefit">✅ Professional Blender 3D animation</div>
+  </div>
+</div>
 
           {/* Service 4 */}
           <div className="service-card compact-card">
@@ -123,9 +122,9 @@ const OurServices = () => {
           <h3>✅ Why Choose Cravimoor</h3>
           <div className="reasons-grid">
             <div className="reason">
-              <strong>Industrial Experience</strong>
-              <p>20+ years in automotive, industrial equipment, 3D design</p>
-            </div>
+  <strong>Proven Viral Appeal</strong>
+  <p>4.8M+ TikTok views in 3 months - designs that perform</p> {/* ← MODIFIÉ */}
+</div>
             <div className="reason">
               <strong>Technical Expertise</strong>
               <p>Specialist in CATIA V5, SolidWorks, Blender - mechanical engineering background</p>
