@@ -61,6 +61,73 @@ function App() {
 </p>
 
       </section>
+    {/* NOUVELLE SECTION - À METTRE APRÈS "Featured Projects" */}
+<motion.section
+  className="section"
+  id="aeronautic"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+>
+  <h2>✈️ Viral Aeronautic Projects</h2>
+  <p className="projects-intro">
+    <strong>Engineering meets viral impact: 1.7M+ views on TikTok</strong><br/>
+    Aeronautic concepts that combine technical precision with social media success.
+  </p>
+  <div className="projects-grid">
+    
+    {/* PROJET 1: Falcon Tunisia Stealth Jet - 1.7M VIEWS */}
+    <ProjectCard
+      imageUrl="/images/falcon.webp"
+      title="Falcon Tunisia Stealth Jet"
+      description="Stealth fighter concept - 1.7M+ TikTok views"
+      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7552557438143106315?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
+    />
+    
+    {/* PROJET 2: 21 Fight Jet Drawing Tunisia - 1.1M VIEWS */}
+    <ProjectCard
+      imageUrl="/images/tunisia.webp"
+      title="Jet Drawing 'Tunisia' in Sky"
+      description="Patriotic aerobatic display - 1.1M+ TikTok views"
+      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7567470752753011979?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
+    />
+    {/* PROJET 2: Hannibal 01 Fight Jet */}
+    <ProjectCard
+      imageUrl="/images/fighter.webp"
+      title="Hannibal 01 Fighter Jet"
+      description="Advanced combat aircraft flying in sky - Aerobatic display"
+      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7573802187474603275?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
+    />
+    {/* PROJET 3: Drone Militaire - Posté Hier */}
+    <ProjectCard
+      imageUrl="/images/dronem.webp"
+      title="Latest Military Drone Design"
+      description="Advanced UAV concept - Fresh content"
+      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7580008242214948152?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
+    />
+    <ProjectCard
+      imageUrl="/images/airplane 01.461.jpg"
+      title="Airplane concept design"
+      description="Airplane concept designed by CRAVIMOOR using CATIA."
+      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
+    />
+    <ProjectCard
+      imageUrl="/images/Drone wg.jpg"
+      title="Beautiful Drone"
+      description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
+      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
+    />
+  </div>
+  
+  {/* SIMPLE CTA AU LIEU DES STATS */}
+  <div className="tiktok-cta">
+    <p>
+      <strong>Want to see these viral videos?</strong><br/>
+      Follow <a href="https://tiktok.com/@cravimoor" target="_blank" rel="noopener noreferrer">@cravimoor on TikTok</a> for more aerospace content
+    </p>
+  </div>
+</motion.section>
       <motion.section
   className="section"
   id="automotive"
@@ -181,18 +248,7 @@ function App() {
       description="Roller compactor fully modeled in CATIA."
       linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_denmark-construction-machinery-activity-7027352470775324673-Eb5J?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
     />
-    <ProjectCard
-      imageUrl="/images/airplane 01.461.jpg"
-      title="Airplane concept design"
-      description="Airplane concept designed by CRAVIMOOR using CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Drone wg.jpg"
-      title="Beautiful Drone"
-      description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
+    
     <ProjectCard
       imageUrl="/images/collection01.jpg"
       title="Cravimoor Collection"

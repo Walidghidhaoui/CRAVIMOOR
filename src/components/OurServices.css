@@ -1,4 +1,13 @@
-/* OurServices.css - Version organisée et carrée */
+//* DEBUG - CENTRAGE */
+.our-services * {
+  border: 1px solid red !important;
+}
+
+.service-grid {
+  background: yellow !important;
+  margin: 20px auto !important;
+  width: 90% !important;
+}* OurServices.css - Version organisée et carrée */
 
 /* Conteneur principal */
 .our-services {
@@ -110,8 +119,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  margin: 50px auto 50px 60px; /* ← CHANGER ICI */
+  margin: 50px auto; /* ← CHANGEZ ICI! */
   max-width: 1000px;
+  padding: 0 20px; /* ← AJOUTEZ pour espace sur mobile */
 }
 
 /* CARTES CARRÉES */
@@ -373,7 +383,8 @@
 
 @media (max-width: 480px) {
   .services-header h2 {
-    font-size: 2rem;
+    font-size: 2rem;  /* ← SEUL style pour h2 sur mobile */
+    text-align: center; /* ← AJOUTEZ CEci */
   }
   
   .service-card {
@@ -385,19 +396,144 @@
   .stats-grid {
     grid-template-columns: 1fr;
   }
-  /* Force "SERVICES" au lieu de "OUR SERVICES" */
-.services-header h2::after {
-  content: "SERVICES" !important;
-  visibility: visible !important;
+}
+/* ===== FORCE CENTRAGE ===== */
+.service-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 30px !important;
+  margin: 50px auto !important; /* ← AUTO DES DEUX CÔTÉS */
+  padding: 0 20px !important; /* ← ESPACE ÉGAL */
+  max-width: 1000px !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+
+/* Pour mobile */
+@media (max-width: 992px) {
+  .service-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 500px !important;
+    margin: 50px auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-grid {
+    max-width: 90% !important;
+    margin: 40px auto !important;
+  }
+  
+  .our-services {
+    padding: 60px 10px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-grid {
+    max-width: 100% !important;
+    padding: 0 10px !important;
+  }
+}
+/* ===== NUKE - FORCE CENTRAGE ABSOLU ===== */
+.our-services * {
+  box-sizing: border-box !important;
+}
+
+.our-services {
+  all: unset !important;
   display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 80px 0 !important;
+  margin: 0 !important;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%) !important;
+  text-align: center !important;
 }
 
-.services-header h2 {
-  font-size: 0 !important;
-  visibility: hidden !important;
+.services-container {
+  all: unset !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
 }
 
-.services-header h2:before {
-  content: "" !important;
+/* Recentrer tout */
+.services-header,
+.tiktok-stats,
+.service-grid,
+.why-choose,
+.cta-section {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
 }
+
+/* Spécifique pour mobile */
+@media (max-width: 768px) {
+  .our-services {
+    padding: 60px 0 !important;
+  }
+  
+  .services-container {
+    padding: 0 15px !important;
+  }
+  
+  .service-grid {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-container {
+    padding: 0 10px !important;
+  }
+}
+/* ===== FORCE CENTRAGE DES 4 CADRES ===== */
+.service-grid {
+  all: unset !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 30px !important;
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 50px auto !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+
+/* Chaque cadre */
+.service-card {
+  width: 100% !important;
+  max-width: 450px !important;
+  margin: 0 auto !important;
+}
+
+/* Pour mobile - 1 colonne */
+@media (max-width: 992px) {
+  .service-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 500px !important;
+  }
+  
+  .service-card {
+    max-width: 100% !important;
+  }
+}
+
+/* Petit mobile */
+@media (max-width: 480px) {
+  .service-grid {
+    max-width: 100% !important;
+    padding: 0 10px !important;
+  }
+  
+  .service-card {
+    padding: 20px !important;
+  }
 }
