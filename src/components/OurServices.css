@@ -448,8 +448,6 @@
   .service-card {
     max-width: 100% !important;
   }
-}
-
 /* Petit mobile */
 @media (max-width: 480px) {
   .service-grid {
@@ -461,3 +459,16 @@
     padding: 20px !important;
   }
 }
+/* DEBUG: Voir les bordures */
+.services-container {
+  border: 2px solid red !important;
+}
+
+.service-grid {
+  border: 2px solid blue !important;
+}
+
+.our-services {
+  border: 2px solid green !important;
+}
+  }
