@@ -1,9 +1,4 @@
-.service-grid {
-  background: yellow !important;
-  margin: 20px auto !important;
-  width: 100% !important;
-}
- /* OurServices.css - Version organisée et carrée */
+/* OurServices.css - Version organisée et carrée */
 
 /* Conteneur principal */
 .our-services {
@@ -109,24 +104,6 @@
   margin-top: 20px;
   color: #00ffe7;
 }
-
-/* ===== GRID DES SERVICES (CARRÉS) ===== */ 
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin: 50px auto; /* ← CHANGEZ ICI! */
-  max-width: 1000px;
-  padding: 0 20px; /* ← AJOUTEZ pour espace sur mobile */
-}
-
-/* CARTES CARRÉES */
-.service-card {
-  background: rgba(31, 31, 31, 0.8);
-  border-radius: 15px;
-  padding: 25px;
-  border: 1px solid rgba(0, 255, 231, 0.3);
-  transition: all 0.4s ease;
   
   /* Carré parfait */
   aspect-ratio: 1 / 1;
@@ -346,12 +323,7 @@
   box-shadow: 0 10px 30px rgba(0, 255, 231, 0.4);
 }
 
-/* Responsive */
-@media (max-width: 992px) {
-  .service-grid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-  }
+
   
   .service-card {
     min-height: 320px;
@@ -393,44 +365,7 @@
     grid-template-columns: 1fr;
   }
 }
-/* ===== FORCE CENTRAGE ===== */
-.service-grid {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 30px !important;
-  margin: 50px auto !important; /* ← AUTO DES DEUX CÔTÉS */
-  padding: 0 20px !important; /* ← ESPACE ÉGAL */
-  max-width: 1000px !important;
-  justify-content: center !important;
-  justify-items: center !important;
-}
 
-/* Pour mobile */
-@media (max-width: 992px) {
-  .service-grid {
-    grid-template-columns: 1fr !important;
-    max-width: 500px !important;
-    margin: 50px auto !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .service-grid {
-    max-width: 90% !important;
-    margin: 40px auto !important;
-  }
-  
-  .our-services {
-    padding: 60px 10px !important;
-    text-align: center !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .service-grid {
-    max-width: 100% !important;
-    padding: 0 10px !important;
-  }
 }
 /* ===== NUKE - FORCE CENTRAGE ABSOLU ===== */
 .our-services * {
@@ -477,18 +412,11 @@
   .services-container {
     padding: 0 15px !important;
   }
-  
-  .service-grid {
-    width: 100% !important;
-    max-width: 500px !important;
-  }
-}
 
 @media (max-width: 480px) {
   .services-container {
     padding: 0 10px !important;
   }
-}
 /* ===== FORCE CENTRAGE DES 4 CADRES ===== */
 .service-grid {
   all: unset !important;
