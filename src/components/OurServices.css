@@ -1,4 +1,4 @@
-//* DEBUG - CENTRAGE */
+/* DEBUG - CENTRAGE */
 .our-services * {
   border: 1px solid red !important;
 }
@@ -114,7 +114,7 @@
   color: #00ffe7;
 }
 
-/* ===== GRID DES SERVICES (CARRÉS) ===== */
+/* ===== GRID DES SERVICES (CARRÉS) ===== */ 
 .service-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
