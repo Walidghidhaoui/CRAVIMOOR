@@ -95,7 +95,7 @@ const OurServices = () => {
   <p className="service-subtitle">High-Performance Social Media Content</p>
   <p>Transform your products into engaging 3D animations</p>
   <div className="benefits">
-    <div className="benefit">✅ Viral automotive designs on TikTok</div>
+    <div className="benefit">✅ Viral aeronautic designs on TikTok</div>
     <div className="benefit">✅ 4.8M+ views in 3 months - proven appeal</div> {/* ← AJOUTÉ */}
     <div className="benefit">✅ Professional Blender 3D animation</div>
   </div>
