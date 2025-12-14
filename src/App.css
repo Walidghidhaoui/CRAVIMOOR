@@ -106,17 +106,25 @@ body {
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   position: relative;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .hero-text {
   background: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 1rem;
-  margin-top: 2rem;
+  margin-top: 0;
+}
+
+.hero-text h2.projects-title {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text h1 {
@@ -191,9 +199,34 @@ body {
   font-size: 1.1rem;
 }
 
-.projects-intro em {
-  color: var(--neon-cyan);
-  font-style: normal;
+/* ===== Aeronautic Section - TikTok CTA ===== */
+.tiktok-cta {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(0, 242, 234, 0.1);
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 60px auto 80px;
+  border: 1px solid rgba(0, 242, 234, 0.3);
+}
+
+.tiktok-cta p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.tiktok-cta a {
+  color: #00f2ea;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.tiktok-cta a:hover {
+  color: #ff0050;
+  text-decoration: underline;
 }
 
 /* ===== Pointer Animation ===== */
@@ -280,6 +313,7 @@ body {
   }
 
   .hero-text h1 { font-size: 2.5rem; }
+  .hero-text h2.projects-title { font-size: 2.4rem; }
   .hero-text p { font-size: 1.2rem; }
 }
 
