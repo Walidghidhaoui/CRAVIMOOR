@@ -112,7 +112,7 @@ body, html {
   background: rgba(0, 0, 0, 0.5);
   padding: 1.2rem 1.5rem; /* ← Moins de padding = cadre plus petit */
   border-radius: 1rem;
-  margin-top: 500px;
+  margin-top: 320px;
   display: inline-block; /* ← Pour que le fond ne prenne que la largeur du texte */
 }
 
