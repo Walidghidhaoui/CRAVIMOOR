@@ -1,92 +1,42 @@
-/* Conteneur principal */
 .project-card-wrapper {
-    width: 100%;
-    max-width: 330px;
-    margin: 0 auto;
-   
-  }
-  
-  /* Carte projet */
-  .project-card {
-    background: #1a1a1a;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 255, 231, 0.2);
-    transition: transform 0.3s;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  /* Cadre d'image */
-  .image-frame {
-    position: relative;
-    width: 100%;
-    height: 170px;
-    overflow: hidden;
-    border-bottom: 2px solid #00ffe7;
-    cursor: pointer;
-  }
-  
-  /* Image responsive */
-  .project-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.5s;
-  }
-  
-  .image-frame:hover .project-image {
-    transform: scale(1.05);
-  }
-  
-  /* Badge LinkedIn */
-  .linkedin-badge {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: #0077b5;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s;
-  }
-  
-  .linkedin-badge svg {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .image-frame:hover .linkedin-badge {
-    transform: scale(1.1);
-    background: #005582;
-  }
-  
-  /* Texte en dessous */
-  .project-text {
-    padding: 10px;
-    color: white;
-    
-  }
-  
-  .project-text h3 {
-    color: #00ffe7;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-  }
-  
-  .project-text p {
-    color: #ccc;
-    line-height: 1.5;
-    font-size: 0.95rem;
-  }
- 
-/* الشارات الاجتماعية */
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 255, 231, 0.2);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-frame {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  border-bottom: 2px solid #00ffe7;
+  cursor: pointer;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.image-frame:hover .project-image {
+  transform: scale(1.05);
+}
+
 .social-badge {
   position: absolute;
   bottom: 15px;
@@ -107,7 +57,6 @@
   height: 22px;
 }
 
-/* شارة LinkedIn (الأزرق) */
 .linkedin-badge {
   background-color: #0077B5;
   box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);
@@ -119,7 +68,6 @@
   box-shadow: 0 6px 18px rgba(0, 119, 181, 0.5);
 }
 
-/* شارة TikTok (الأسود مع تأثير التوهج الوردي) */
 .tiktok-badge {
   background-color: #000000;
   box-shadow: 0 4px 12px rgba(255, 0, 80, 0.3);
@@ -133,4 +81,21 @@
 
 .tiktok-badge svg {
   fill: #fff;
+}
+
+.project-text {
+  padding: 10px;
+  color: white;
+}
+
+.project-text h3 {
+  color: #00ffe7;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.project-text p {
+  color: #ccc;
+  line-height: 1.5;
+  font-size: 0.95rem;
 }
