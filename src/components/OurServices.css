@@ -1,4 +1,4 @@
-/* OurServices.css - Version propre, sans !important ni all:unset */
+/* OurServices.css - Version propre, centrée, sans conflits */
 
 .our-services {
   padding: 80px 20px;
@@ -13,6 +13,7 @@
   padding: 0 20px;
 }
 
+/* ===== En-tête ===== */
 .services-header h2 {
   font-size: 2.8rem;
   margin-bottom: 15px;
@@ -37,6 +38,7 @@
   color: #cccccc;
 }
 
+/* ===== TikTok Stats ===== */
 .tiktok-stats {
   background: rgba(0, 0, 0, 0.4);
   border-radius: 15px;
@@ -99,6 +101,7 @@
   color: #00ffe7;
 }
 
+/* ===== Services Grid ===== */
 .service-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -215,6 +218,7 @@
   border-radius: 3px;
 }
 
+/* ===== Why Choose ===== */
 .why-choose {
   margin: 60px 0;
 }
@@ -262,6 +266,7 @@
   line-height: 1.5;
 }
 
+/* ===== Call to Action ===== */
 .cta-section {
   background: rgba(0, 255, 231, 0.1);
   border-radius: 15px;
@@ -278,6 +283,13 @@
   font-family: 'Orbitron', sans-serif;
 }
 
+.cta-section p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
 .cta-button {
   display: inline-block;
   background: linear-gradient(90deg, #00ffe7, #1303f2);
@@ -289,6 +301,7 @@
   text-decoration: none;
   transition: all 0.3s ease;
   font-family: 'Orbitron', sans-serif;
+  margin-top: 5px; /* ← DESCENTE DE 5mm */
 }
 
 .cta-button:hover {
