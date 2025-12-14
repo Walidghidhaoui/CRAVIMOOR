@@ -192,29 +192,56 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .contact-section {
+    padding: 3rem 15px; /* ← padding horizontal uniforme */
+  }
+
   .contact-container {
     grid-template-columns: 1fr;
-    padding: 0 15px; /* ← uniforme */
+    padding: 0 10px;
     width: 100%;
-    max-width: none;
     margin: 0 auto;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .contact-info-card,
   .contact-form {
     width: 100%;
     box-sizing: border-box;
+    text-align: center; /* ← CENTRÉ ! */
+    padding: 1.5rem;
+  }
+
+  /* Réinitialise l’alignement du tableau */
+  .contact-table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .contact-table td {
+    text-align: center !important;
+    padding: 0.5rem 0 !important;
+  }
+
+  .label-cell, .value-cell {
+    display: block;
+    font-size: 0.95rem;
   }
 
   .social-links {
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .social-button {
     width: 100%;
-    text-align: center;
+    max-width: 300px;
     justify-content: center;
+    text-align: center;
+    margin: 0 auto;
   }
 }
