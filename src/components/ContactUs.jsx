@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser'; // CORRECTION ici : emailjs-com ➔ @emailjs/browser
+import emailjs from '@emailjs/browser';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -23,10 +23,10 @@ const ContactUs = () => {
     };
 
     emailjs.send(
-      'service_5kluta8',       // service_5kluta8
-      'template_y7n64fd',      // template_y7n64fd
+      'service_5kluta8',
+      'template_y7n64fd',
       templateParams,
-      'UU4qhYU51mSNj6wdR'           // UU4qhYU51mSNj6wdR
+      'UU4qhYU51mSNj6wdR'
     )
     .then(() => {
       alert('Message envoyé avec succès à walidghidhawi@gmail.com !');
@@ -74,43 +74,46 @@ const ContactUs = () => {
             >
               <span className="social-icon">🔗</span> LinkedIn
             </a>
-            <a href="https://x.com/walid_ghidhaoui"
-            target="_blank"
-            rel="noopener noreferrer"
-             className="social-button twitter-btn">
-  <span className="social-icon">𝕏</span> Twitter
-</a>
-<a 
-  href="https://www.facebook.com/share/15gM7LFCje/" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="social-button facebook-btn"
->
-<i class="fab fa-facebook-f social-icon">f</i> Facebook
-</a>
             <a 
-  href="https://instagram.com/walidghidhawi" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="social-button instagram-btn"
->
-  <span className="social-icon">📷</span> Instagram
-</a>
-<a href="https://www.tiktok.com/@cravimoor" 
-   class="social-btn tiktok-btn" 
-   rel="noopener noreferrer"
-   target="_blank">
-    
-   <i class="fab fa-tiktok social-icon">♬</i> TikTok
-</a>
-<a href="https://youtube.com/@cravimoor" 
-   class="social-btn youtube-btn"
-   rel="noopener noreferrer"
-   target="_blank">
-    
-   <i class="fab fa-youtube social-icon">📺</i> YouTube
-</a>
-
+              href="https://x.com/walid_ghidhaoui"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-button twitter-btn"
+            >
+              <span className="social-icon">𝕏</span> Twitter
+            </a>
+            <a 
+              href="https://www.facebook.com/share/15gM7LFCje/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-button facebook-btn"
+            >
+              <span className="social-icon">f</span> Facebook
+            </a>
+            <a 
+              href="https://instagram.com/walidghidhawi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-button instagram-btn"
+            >
+              <span className="social-icon">📷</span> Instagram
+            </a>
+            <a 
+              href="https://www.tiktok.com/@cravimoor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-button tiktok-btn"
+            >
+              <span className="social-icon">♬</span> TikTok
+            </a>
+            <a 
+              href="https://youtube.com/@cravimoor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-button youtube-btn"
+            >
+              <span className="social-icon">📺</span> YouTube
+            </a>
           </div>
         </div>
 
