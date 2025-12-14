@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
 import ContactUs from './components/ContactUs';
-import React from 'react';
 import logo from './logo.png';
 import bugattiBackground from './images/BUG_Ghidhaoui_1.jpg'; 
 import './App.css';
@@ -34,7 +33,7 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {/* Hero */}
       <section id="home" className="hero" style={{ backgroundImage: `url(${bugattiBackground})` }}>
         <div className="hero-text">
           <h2 className="projects-title">CRAVIMOOR</h2>
@@ -43,6 +42,7 @@ function App() {
         </div>
       </section>
 
+      {/* Featured Projects Intro */}
       <section className="section" id="projects">
         <h2>Featured Projects</h2>
         <p className="projects-intro">
@@ -57,7 +57,7 @@ function App() {
         </p>
       </section>
 
-      {/* Aeronautic Section */}
+      {/* Aeronautic */}
       <motion.section
         className="section"
         id="aeronautic"
@@ -96,18 +96,6 @@ function App() {
             description="Advanced UAV concept - Fresh content"
             linkedinUrl="https://www.tiktok.com/@cravimoor/video/7580008242214948152"
           />
-          <ProjectCard
-            imageUrl="/images/airplane 01.461.jpg"
-            title="Airplane concept design"
-            description="Airplane concept designed by CRAVIMOOR using CATIA."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB"
-          />
-          <ProjectCard
-            imageUrl="/images/Drone wg.jpg"
-            title="Beautiful Drone"
-            description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi"
-          />
         </div>
         <div className="tiktok-cta">
           <p>
@@ -117,7 +105,7 @@ function App() {
         </div>
       </motion.section>
 
-      {/* Automotive Section */}
+      {/* Automotive */}
       <motion.section
         className="section"
         id="automotive"
@@ -141,146 +129,13 @@ function App() {
             linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7082734965880188928"
           />
           <ProjectCard
-            imageUrl="/images/BUG Ghidhaoui_6.jpg"
-            title="Bugatti Mistral"
-            description="Concept design created in CATIA by CRAVIMOOR with high-end lighting details."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-3d-automobile-activity-7082782632421261312-UZ6Q"
-          />
-          <ProjectCard
             imageUrl="/images/Lambo v1.jpg"
             title="Lamborghini"
             description="Lamborghini concept car designed in CATIA by CRAVIMOOR."
             linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:6968949712456437760"
           />
-          <ProjectCard
-            imageUrl="/images/FSAE 01.webp"
-            title="FSAE Design"
-            description="Formula SAE car 3D modeled from scratch using CATIA and Blender by CRAVIMOOR."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-catia-innovation-activity-7292160292778659840-C7UE"
-          />
-          <ProjectCard
-            imageUrl="/images/FSAE 02.jpg"
-            title="FSAE Design"
-            description="Formula SAE car 3D modeled from scratch using Catia and Blender by CRAVIMOOR."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-animation-innovation-activity-7292461296988389378-uVey"
-          />
-          <ProjectCard
-            imageUrl="/images/Flying Car Design.jpg"
-            title="Flying Car Design"
-            description="Crow car Design When Inspiration Meets Creativity."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_aesaedaetaeyaetabraebaeyaepaezaepaes-aebaeyaepaezaerabraefaepaeoaezaer-activity-7332453242339065856-rTOw"
-          />
-          <ProjectCard
-            imageUrl="/images/FCR16.jpg"
-            title="Formula One CR7 Design"
-            description="A bold fusion of speed, design, and precision by CRAVIMOOR using Blender."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_engineering-machine-cad-activity-7241081845625331712-fZCI"
-          />
-          <ProjectCard
-            imageUrl="/images/maybach2.jpg"
-            title="Maybach Concept"
-            description="Luxury-class car model designed using Blender with realistic rendering."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-automotivedesign-maybach-activity-7324555356871774208-zLOB"
-          />
-          <ProjectCard
-            imageUrl="/images/maybach1.jpg"
-            title="Maybach Animation"
-            description="Mercedes-Benz-Maybach-Cravimoor designed with realistic rendering and animation."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_luxurycar-exclusivedesign-mercedes-activity-7359579014350405633-tkhV"
-          />
-          <ProjectCard
-            imageUrl="/images/BMW_8_2020.246.webp"
-            title="BMW_8 Concept"
-            description="High-end BMW 8 Series concept designed in CATIA."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_bmw-design-catia-activity-6653589394882076672-MKXl"
-          />
-          <ProjectCard
-            imageUrl="/images/Walda.jpg"
-            title="Walda Car Design"
-            description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
-            linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG"
-          />
-          <ProjectCard
-            imageUrl="/images/maybach3.webp"
-            title="Maybach Cabriolet"
-            description="Luxury-class car model designed using Blender with realistic animation."
-            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7540337809689709880"
-          />
-          <ProjectCard
-            imageUrl="/images/maybach4.webp"
-            title="Maybach Blackwolf"
-            description="Luxury-class car model designed using Blender with realistic animation."
-            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7538782340005285176"
-          />
-          <ProjectCard
-            imageUrl="/images/maybach5.webp"
-            title="Maybach & Cravimoor"
-            description="Luxury-class car model designed Maybach and cravimoor car."
-            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539491861187104006"
-          />
-          <ProjectCard
-            imageUrl="/images/Cravi.webp"
-            title="Cravimoor car"
-            description="Luxury-class car model designed cravimoor car using blender."
-            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539830304639356166"
-          />
         </div>
       </motion.section>
-
-      {/* Other Projects */}
-      <section className="section" id="other-projects">
-        <h2>Other Projects</h2>
-        <div className="projects-grid">
-          <ProjectCard
-            imageUrl="/images/Roller Compactor.jpg"
-            title="Roller Compactor"
-            description="Roller compactor fully modeled in CATIA."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_denmark-construction-machinery-activity-7027352470775324673-Eb5J"
-          />
-          <ProjectCard
-            imageUrl="/images/collection01.jpg"
-            title="Cravimoor Collection"
-            description="Some of our exclusive design that we collected in this video. I hope you like it"
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP"
-          />
-          <ProjectCard
-            imageUrl="/images/CLOTH.jpg"
-            title="clothing design"
-            description="Challenging the limits of CATIA V5 by exploring fashion design."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_clothing-armaeze-designspiration-activity-7059448800939053056-1esG"
-          />
-          <ProjectCard
-            imageUrl="/images/Convertible furniture.webp"
-            title="Convertible furniture"
-            description="That moment when you want to take a nap while working Well."
-            linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7042525144816177153"
-          />
-          <ProjectCard
-            imageUrl="/images/cooling tower.jpg"
-            title="cooling tower"
-            description="Design and manufacture of a cooling tower for the IMM company."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-catia-mechanical-activity-7030589033277747200-cjKI"
-          />
-          <ProjectCard
-            imageUrl="/images/Panier crible.jpg"
-            title="cement crusher"
-            description="basket intended for a cement crusher using Solidworks."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_solidworks-engineering-3ddesign-activity-7290736193430814720-ANf5"
-          />
-          <ProjectCard
-            imageUrl="/images/Filler cone.jpg"
-            title="Filler cone"
-            description="Filler cone assembly using Solidworks."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-cement-design-activity-6950515986680692736-bPjf"
-          />
-          <ProjectCard
-            imageUrl="/images/pendule flapper.jpg"
-            title="Pendule flapper"
-            description="Pendule flapper at level cylone of tower preheater cement using Solidworks."
-            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-design-mechanicalengineer-activity-6949333994194800640-VsJn"
-          />
-        </div>
-      </section>
 
       {/* About */}
       <section className="section" id="about">
@@ -316,6 +171,7 @@ function App() {
         <ContactUs />
       </section>
 
+      {/* Footer */}
       <hr className="footer-line" />
       <p className="footer-text">
         © 2025 Cravimoor. All rights reserved. | Powered by Cravimoor
@@ -325,6 +181,3 @@ function App() {
 }
 
 export default App;
-
-
-
