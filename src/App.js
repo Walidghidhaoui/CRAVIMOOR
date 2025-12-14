@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
-import ContactUs from './components/ContactUs.jsx';
+import ContactUs from './components/ContactUs';
 import React from 'react';
 import logo from './logo.png';
 import bugattiBackground from './images/BUG_Ghidhaoui_1.jpg'; 
 import './App.css';
 import OurServices from './components/OurServices';
-
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,331 +18,312 @@ function App() {
   return (
     <div className="App">
       {/* Navbar */}
-     <nav className="navbar">
-  <img src={logo} className="App-logo" alt="logo" />
-
-  <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-  <div className="hamburger" onClick={toggleMenu}>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</nav>
-
-      
+      <nav className="navbar">
+        <img src={logo} className="App-logo" alt="logo" />
+        <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div className="hamburger" onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
 
       {/* Hero Section */}
       <section id="home" className="hero" style={{ backgroundImage: `url(${bugattiBackground})` }}>
         <div className="hero-text">
-        <h2 className="projects-title">CRAVIMOOR</h2>
+          <h2 className="projects-title">CRAVIMOOR</h2>
           <h1>Vision Beyond Limits</h1>
-          <p>Design. Innovation. Excellence </p>
+          <p>Design. Innovation. Excellence</p>
         </div>
       </section>
+
       <section className="section" id="projects">
- <h2>Featured Projects</h2>
-<p className="projects-intro">
-  <strong>From Viral TikTok Concepts to Industrial Solutions</strong><br/>
-  A showcase of 20+ years in mechanical design and 3D modeling, blending technical precision 
-  with viral visual appeal. Each project demonstrates expertise in CATIA, SolidWorks, and Blender 
-  for automotive, industrial, and product design applications.<br/>
-  <div className="pointer-container">
-    <div className="pointer-text">Click on each image to view project details</div>
-    <div className="hand-pointer">👇</div>
-  </div>
-</p>
-
+        <h2>Featured Projects</h2>
+        <p className="projects-intro">
+          <strong>From Viral TikTok Concepts to Industrial Solutions</strong><br/>
+          A showcase of 20+ years in mechanical design and 3D modeling, blending technical precision 
+          with viral visual appeal. Each project demonstrates expertise in CATIA, SolidWorks, and Blender 
+          for automotive, industrial, and product design applications.<br/>
+          <div className="pointer-container">
+            <div className="pointer-text">Click on each image to view project details</div>
+            <div className="hand-pointer">👇</div>
+          </div>
+        </p>
       </section>
-    {/* NOUVELLE SECTION - À METTRE APRÈS "Featured Projects" */}
-<motion.section
-  className="section"
-  id="aeronautic"
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  viewport={{ once: true }}
->
-  <h2>✈️ Viral Aeronautic Projects</h2>
-  <p className="projects-intro">
-    <strong>Engineering meets viral impact: 1.7M+ views on TikTok</strong><br/>
-    Aeronautic concepts that combine technical precision with social media success.
-  </p>
-  <div className="projects-grid">
-    
-    {/* PROJET 1: Falcon Tunisia Stealth Jet - 1.7M VIEWS */}
-    <ProjectCard
-      imageUrl="/images/falcon.webp"
-      title="Falcon Tunisia Stealth Jet"
-      description="Stealth fighter concept - 1.7M+ TikTok views"
-      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7552557438143106315?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
-    />
-    
-    {/* PROJET 2: 21 Fight Jet Drawing Tunisia - 1.1M VIEWS */}
-    <ProjectCard
-      imageUrl="/images/tunisia.webp"
-      title="Jet Drawing 'Tunisia' in Sky"
-      description="Patriotic aerobatic display - 1.1M+ TikTok views"
-      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7567470752753011979?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
-    />
-    {/* PROJET 2: Hannibal 01 Fight Jet */}
-    <ProjectCard
-      imageUrl="/images/fighter.webp"
-      title="Hannibal 01 Fighter Jet"
-      description="Advanced combat aircraft flying in sky - Aerobatic display"
-      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7573802187474603275?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
-    />
-    {/* PROJET 3: Drone Militaire - Posté Hier */}
-    <ProjectCard
-      imageUrl="/images/dronem.webp"
-      title="Latest Military Drone Design"
-      description="Advanced UAV concept - Fresh content"
-      linkedinUrl="https://www.tiktok.com/@cravimoor/video/7580008242214948152?is_from_webapp=1&sender_device=pc&web_id=7580744914948916747"
-    />
-    <ProjectCard
-      imageUrl="/images/airplane 01.461.jpg"
-      title="Airplane concept design"
-      description="Airplane concept designed by CRAVIMOOR using CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Drone wg.jpg"
-      title="Beautiful Drone"
-      description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-  </div>
-  
-  {/* SIMPLE CTA AU LIEU DES STATS */}
-  <div className="tiktok-cta">
-    <p>
-      <strong>Want to see these viral videos?</strong><br/>
-      Follow <a href="https://tiktok.com/@cravimoor" target="_blank" rel="noopener noreferrer">@cravimoor on TikTok</a> for more aerospace content
-    </p>
-  </div>
-</motion.section>
+
+      {/* Aeronautic Section */}
       <motion.section
-  className="section"
-  id="automotive"
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  viewport={{ once: true }}
->
-  <h2>Automotive Projects</h2>
-  <div className="projects-grid">
-    <ProjectCard
-      imageUrl="/images/CR0011.jpg"
-      title="Cravimoor car Design"
-      description="CRAVIMOOR’s exclusive speed car — modeled in CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-car-cardesign-activity-7225503653850173440-p1d6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/BUG Ghidhaoui_2.jpg"
-      title="Bugatti Mistral"
-      description="High-end concept modeled in CATIA with advanced lighting design by CRAVIMOOR."
-      linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7082734965880188928/"
-    />
-    <ProjectCard
-      imageUrl="/images/BUG Ghidhaoui_6.jpg"
-      title="Bugatti Mistral"
-      description="Concept design created in CATIA by CRAVIMOOR with high-end lighting details."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-3d-automobile-activity-7082782632421261312-UZ6Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Lambo v1.jpg"
-      title="Lamborghini"
-      description="Lamborghini concept car designed in CATIA by CRAVIMOOR."
-      linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:6968949712456437760?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/FSAE 01.webp"
-      title="FSAE Design"
-      description="Formula SAE car 3D modeled from scratch using CATIA and Blender by CRAVIMOOR."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-catia-innovation-activity-7292160292778659840-C7UE"
-    />
-    <ProjectCard
-      imageUrl="/images/FSAE 02.jpg"
-      title="FSAE Design"
-      description="Formula SAE car 3D modeled from scratch using Catia and Blender by CRAVIMOOR."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-animation-innovation-activity-7292461296988389378-uVey?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Flying Car Design.jpg"
-      title="Flying Car Design"
-      description="Crow car Design When Inspiration Meets Creativity."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_aesaedaetaeyaetabraebaeyaepaezaepaes-aebaeyaepaezaerabraefaepaeoaezaer-activity-7332453242339065856-rTOw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/FCR16.jpg"
-      title="Formula One CR7 Design"
-      description="A bold fusion of speed, design, and precision by CRAVIMOOR using Blender."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_engineering-machine-cad-activity-7241081845625331712-fZCI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-     <ProjectCard
-  imageUrl="/images/maybach2.jpg"
-  title="Maybach Concept"
-  description="Luxury-class car model designed using Blender with realistic rendering."
-  linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-automotivedesign-maybach-activity-7324555356871774208-zLOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-/>
-<ProjectCard
-  imageUrl="/images/maybach1.jpg"
-  title="Maybach Animation"
-  description="Mercedes-Benz-Maybach-Cravimoor designed with realistic rendering and animation."
-  linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_luxurycar-exclusivedesign-mercedes-activity-7359579014350405633-tkhV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-/>
-<ProjectCard
-  imageUrl="/images/BMW_8_2020.246.webp"
-  title="BMW_8 Concept"
-  description="High-end BMW 8 Series concept designed in CATIA."
-  linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_bmw-design-catia-activity-6653589394882076672-MKXl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-/>
-    <ProjectCard
-      imageUrl="/images/Walda.jpg"
-      title="Walda Car Design"
-      description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-  imageUrl="/images/maybach3.webp"
-  title="Maybach Cabriolet"
-  description="Luxury-class car model designed using Blender with realistic animation."
-  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7540337809689709880?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
-/>
-<ProjectCard
-  imageUrl="/images/maybach4.webp"
-  title="Maybach Blackwolf"
-  description="Luxury-class car model designed using Blender with realistic animation."
-  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7538782340005285176?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
-/>
-<ProjectCard
-  imageUrl="/images/maybach5.webp"
-  title="Maybach & Cravimoor"
-  description="Luxury-class car model designed Maybach and cravimoor car."
-  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539491861187104006?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
-/>
-<ProjectCard
-  imageUrl="/images/Cravi.webp"
-  title="Cravimoor car"
-  description="Luxury-class car model designed cravimoor car using blender."
-  linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539830304639356166?is_from_webapp=1&sender_device=pc&web_id=7541036573467412024"
-/>
-  </div>
-</motion.section>
+        className="section"
+        id="aeronautic"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <h2>✈️ Viral Aeronautic Projects</h2>
+        <p className="projects-intro">
+          <strong>Engineering meets viral impact: 1.7M+ views on TikTok</strong><br/>
+          Aeronautic concepts that combine technical precision with social media success.
+        </p>
+        <div className="projects-grid">
+          <ProjectCard
+            imageUrl="/images/falcon.webp"
+            title="Falcon Tunisia Stealth Jet"
+            description="Stealth fighter concept - 1.7M+ TikTok views"
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7552557438143106315"
+          />
+          <ProjectCard
+            imageUrl="/images/tunisia.webp"
+            title="Jet Drawing 'Tunisia' in Sky"
+            description="Patriotic aerobatic display - 1.1M+ TikTok views"
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7567470752753011979"
+          />
+          <ProjectCard
+            imageUrl="/images/fighter.webp"
+            title="Hannibal 01 Fighter Jet"
+            description="Advanced combat aircraft flying in sky - Aerobatic display"
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7573802187474603275"
+          />
+          <ProjectCard
+            imageUrl="/images/dronem.webp"
+            title="Latest Military Drone Design"
+            description="Advanced UAV concept - Fresh content"
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7580008242214948152"
+          />
+          <ProjectCard
+            imageUrl="/images/airplane 01.461.jpg"
+            title="Airplane concept design"
+            description="Airplane concept designed by CRAVIMOOR using CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-plane-car-activity-6934258826527305728-4CgB"
+          />
+          <ProjectCard
+            imageUrl="/images/Drone wg.jpg"
+            title="Beautiful Drone"
+            description="Exclusive design by Walid Ghidhaoui. Software used: CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_catiav5-keyshot-design-activity-6938555840555573248-o-yi"
+          />
+        </div>
+        <div className="tiktok-cta">
+          <p>
+            <strong>Want to see these viral videos?</strong><br/>
+            Follow <a href="https://tiktok.com/@cravimoor" target="_blank" rel="noopener noreferrer">@cravimoor on TikTok</a> for more aerospace content
+          </p>
+        </div>
+      </motion.section>
 
-{/* Other Projects Section */}
-<section className="section" id="other-projects">
-  <h2>Other Projects</h2>
-  <div className="projects-grid">
-    
-   <ProjectCard
-      imageUrl="/images/Roller Compactor.jpg"
-      title="Roller Compactor"
-      description="Roller compactor fully modeled in CATIA."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_denmark-construction-machinery-activity-7027352470775324673-Eb5J?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    
-    <ProjectCard
-      imageUrl="/images/collection01.jpg"
-      title="Cravimoor Collection"
-      description="Some of our exclusive design that we collected in this video. I hope you like it"
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/CLOTH.jpg"
-      title="clothing design"
-      description="Challenging the limits of CATIA V5 by exploring fashion design."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_clothing-armaeze-designspiration-activity-7059448800939053056-1esG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Convertible furniture.webp"
-      title="Convertible furniture"
-      description="That moment when you want to take a nap while working Well."
-      linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7042525144816177153?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/cooling tower.jpg"
-      title="cooling tower"
-      description="Design and manufacture of a cooling tower for the IMM company."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-catia-mechanical-activity-7030589033277747200-cjKI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Panier crible.jpg"
-      title="cement crusher"
-      description="basket intended for a cement crusher using Solidworks."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_solidworks-engineering-3ddesign-activity-7290736193430814720-ANf5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/Filler cone.jpg"
-      title="Filler cone"
-      description="Filler cone assembly using Solidworks."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-cement-design-activity-6950515986680692736-bPjf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    <ProjectCard
-      imageUrl="/images/pendule flapper.jpg"
-      title="Pendule flapper"
-      description="Pendule flapper at level cylone of tower preheater cement using Solidworks."
-      linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-design-mechanicalengineer-activity-6949333994194800640-VsJn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7OwCsBFscI34NnvYRkni_yGSKropNxNBI"
-    />
-    
-  </div>
-</section>
+      {/* Automotive Section */}
+      <motion.section
+        className="section"
+        id="automotive"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <h2>Automotive Projects</h2>
+        <div className="projects-grid">
+          <ProjectCard
+            imageUrl="/images/CR0011.jpg"
+            title="Cravimoor car Design"
+            description="CRAVIMOOR’s exclusive speed car — modeled in CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-car-cardesign-activity-7225503653850173440-p1d6"
+          />
+          <ProjectCard
+            imageUrl="/images/BUG Ghidhaoui_2.jpg"
+            title="Bugatti Mistral"
+            description="High-end concept modeled in CATIA with advanced lighting design by CRAVIMOOR."
+            linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7082734965880188928"
+          />
+          <ProjectCard
+            imageUrl="/images/BUG Ghidhaoui_6.jpg"
+            title="Bugatti Mistral"
+            description="Concept design created in CATIA by CRAVIMOOR with high-end lighting details."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-3d-automobile-activity-7082782632421261312-UZ6Q"
+          />
+          <ProjectCard
+            imageUrl="/images/Lambo v1.jpg"
+            title="Lamborghini"
+            description="Lamborghini concept car designed in CATIA by CRAVIMOOR."
+            linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:6968949712456437760"
+          />
+          <ProjectCard
+            imageUrl="/images/FSAE 01.webp"
+            title="FSAE Design"
+            description="Formula SAE car 3D modeled from scratch using CATIA and Blender by CRAVIMOOR."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-catia-innovation-activity-7292160292778659840-C7UE"
+          />
+          <ProjectCard
+            imageUrl="/images/FSAE 02.jpg"
+            title="FSAE Design"
+            description="Formula SAE car 3D modeled from scratch using Catia and Blender by CRAVIMOOR."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-animation-innovation-activity-7292461296988389378-uVey"
+          />
+          <ProjectCard
+            imageUrl="/images/Flying Car Design.jpg"
+            title="Flying Car Design"
+            description="Crow car Design When Inspiration Meets Creativity."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_aesaedaetaeyaetabraebaeyaepaezaepaes-aebaeyaepaezaerabraefaepaeoaezaer-activity-7332453242339065856-rTOw"
+          />
+          <ProjectCard
+            imageUrl="/images/FCR16.jpg"
+            title="Formula One CR7 Design"
+            description="A bold fusion of speed, design, and precision by CRAVIMOOR using Blender."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_engineering-machine-cad-activity-7241081845625331712-fZCI"
+          />
+          <ProjectCard
+            imageUrl="/images/maybach2.jpg"
+            title="Maybach Concept"
+            description="Luxury-class car model designed using Blender with realistic rendering."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_3ddesign-automotivedesign-maybach-activity-7324555356871774208-zLOB"
+          />
+          <ProjectCard
+            imageUrl="/images/maybach1.jpg"
+            title="Maybach Animation"
+            description="Mercedes-Benz-Maybach-Cravimoor designed with realistic rendering and animation."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_luxurycar-exclusivedesign-mercedes-activity-7359579014350405633-tkhV"
+          />
+          <ProjectCard
+            imageUrl="/images/BMW_8_2020.246.webp"
+            title="BMW_8 Concept"
+            description="High-end BMW 8 Series concept designed in CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_bmw-design-catia-activity-6653589394882076672-MKXl"
+          />
+          <ProjectCard
+            imageUrl="/images/Walda.jpg"
+            title="Walda Car Design"
+            description="CRAVIMOOR’s futuristic Walda Car Design— shaped in CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/catia_walid-ghidhaoui-3dexperience-profile-create-activity-6923516104824778752-aybG"
+          />
+          <ProjectCard
+            imageUrl="/images/maybach3.webp"
+            title="Maybach Cabriolet"
+            description="Luxury-class car model designed using Blender with realistic animation."
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7540337809689709880"
+          />
+          <ProjectCard
+            imageUrl="/images/maybach4.webp"
+            title="Maybach Blackwolf"
+            description="Luxury-class car model designed using Blender with realistic animation."
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7538782340005285176"
+          />
+          <ProjectCard
+            imageUrl="/images/maybach5.webp"
+            title="Maybach & Cravimoor"
+            description="Luxury-class car model designed Maybach and cravimoor car."
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539491861187104006"
+          />
+          <ProjectCard
+            imageUrl="/images/Cravi.webp"
+            title="Cravimoor car"
+            description="Luxury-class car model designed cravimoor car using blender."
+            linkedinUrl="https://www.tiktok.com/@cravimoor/video/7539830304639356166"
+          />
+        </div>
+      </motion.section>
 
+      {/* Other Projects */}
+      <section className="section" id="other-projects">
+        <h2>Other Projects</h2>
+        <div className="projects-grid">
+          <ProjectCard
+            imageUrl="/images/Roller Compactor.jpg"
+            title="Roller Compactor"
+            description="Roller compactor fully modeled in CATIA."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_denmark-construction-machinery-activity-7027352470775324673-Eb5J"
+          />
+          <ProjectCard
+            imageUrl="/images/collection01.jpg"
+            title="Cravimoor Collection"
+            description="Some of our exclusive design that we collected in this video. I hope you like it"
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_work-design-ingenierie-activity-7062536317527576576-I6qP"
+          />
+          <ProjectCard
+            imageUrl="/images/CLOTH.jpg"
+            title="clothing design"
+            description="Challenging the limits of CATIA V5 by exploring fashion design."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_clothing-armaeze-designspiration-activity-7059448800939053056-1esG"
+          />
+          <ProjectCard
+            imageUrl="/images/Convertible furniture.webp"
+            title="Convertible furniture"
+            description="That moment when you want to take a nap while working Well."
+            linkedinUrl="https://www.linkedin.com/feed/update/urn:li:activity:7042525144816177153"
+          />
+          <ProjectCard
+            imageUrl="/images/cooling tower.jpg"
+            title="cooling tower"
+            description="Design and manufacture of a cooling tower for the IMM company."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_design-catia-mechanical-activity-7030589033277747200-cjKI"
+          />
+          <ProjectCard
+            imageUrl="/images/Panier crible.jpg"
+            title="cement crusher"
+            description="basket intended for a cement crusher using Solidworks."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_solidworks-engineering-3ddesign-activity-7290736193430814720-ANf5"
+          />
+          <ProjectCard
+            imageUrl="/images/Filler cone.jpg"
+            title="Filler cone"
+            description="Filler cone assembly using Solidworks."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-cement-design-activity-6950515986680692736-bPjf"
+          />
+          <ProjectCard
+            imageUrl="/images/pendule flapper.jpg"
+            title="Pendule flapper"
+            description="Pendule flapper at level cylone of tower preheater cement using Solidworks."
+            linkedinUrl="https://www.linkedin.com/posts/walid-ghidhaoui-3a3120125_project-design-mechanicalengineer-activity-6949333994194800640-VsJn"
+          />
+        </div>
+      </section>
 
-      {/* About Section */}
+      {/* About */}
       <section className="section" id="about">
-  <h2>About Me</h2>
-  <p>
-    <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong><br/><br/>
-    
-    With over 20 years of hands-on experience in mechanical design and industrial engineering, 
-    I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
-    
-    <strong>Professional Background:</strong><br/>
-    • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM<br/>
-    • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant<br/>
-    • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
-    • <strong>Freelance Design:</strong> International clients in France, Denmark, and Pakistan<br/><br/>
-    
-    <strong>Education & Certification:</strong><br/>
-    • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
-    • Technical engineering degree in Mechanical Engineering<br/>
-    • Certified expertise in CATIA V5, SolidWorks, and Blender<br/><br/>
-    
-    <strong>What sets my approach apart:</strong><br/>
-    • <strong>Technical precision</strong> from industrial engineering background<br/>
-    • <strong>Viral design appeal</strong> - 4.8M+ TikTok views in just 3 months<br/>
-    • <strong>Practical experience</strong> with real-world manufacturing constraints<br/>
-    
-    I bridge the gap between theoretical engineering and practical, 
-    production-ready 3D design, delivering solutions that are both 
-    technically sound and visually compelling.
-  </p>
-</section>
+        <h2>About Me</h2>
+        <p>
+          <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong><br/><br/>
+          With over 20 years of hands-on experience in mechanical design and industrial engineering, 
+          I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
+          <strong>Professional Background:</strong><br/>
+          • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM<br/>
+          • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant<br/>
+          • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
+          • <strong>Freelance Design:</strong> International clients in France, Denmark, and Pakistan<br/><br/>
+          <strong>Education & Certification:</strong><br/>
+          • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
+          • Technical engineering degree in Mechanical Engineering<br/>
+          • Certified expertise in CATIA V5, SolidWorks, and Blender<br/><br/>
+          <strong>What sets my approach apart:</strong><br/>
+          • <strong>Technical precision</strong> from industrial engineering background<br/>
+          • <strong>Viral design appeal</strong> - 4.8M+ TikTok views in just 3 months<br/>
+          • <strong>Practical experience</strong> with real-world manufacturing constraints<br/>
+          I bridge the gap between theoretical engineering and practical, 
+          production-ready 3D design, delivering solutions that are both 
+          technically sound and visually compelling.
+        </p>
+      </section>
 
-      {/* Services Section */}
+      {/* Services */}
       <OurServices />
 
-      
-      {/* Contact Section */}
+      {/* Contact */}
       <section className="section" id="contact">
-      <ContactUs />
+        <ContactUs />
       </section>
-      <>
-  <hr className="footer-line" />
-  <p className="footer-text">
-    © 2025 Cravimoor. All rights reserved. | Powered by Cravimoor
-  </p>
-</>
+
+      <hr className="footer-line" />
+      <p className="footer-text">
+        © 2025 Cravimoor. All rights reserved. | Powered by Cravimoor
+      </p>
     </div>
   );
 }
+
 export default App;
 
 
