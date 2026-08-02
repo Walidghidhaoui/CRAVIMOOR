@@ -294,7 +294,7 @@ function App() {
           • <strong>Leadership:</strong> 3+ years in supervisory roles (Team Leader – Cab Assembly Line, Assembly Department Manager) overseeing up to 55 employees at ISUZU/GM<br/>
           • <strong>Industrial:</strong> 13+ years as senior mechanical designer at SOTACIB cement plant<br/>
           • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
-          • <strong>Freelance Design:</strong> International clients in France, Denmark, and Pakistan<br/><br/>
+          • <strong>Freelance Design:</strong> International clients in France<br/><br/>
           <strong>Education & Certification:</strong><br/>
           • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
           • Technical engineering degree in Mechanical Engineering<br/>
