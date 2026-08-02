@@ -39,13 +39,13 @@ function App() {
         <div className="hero-text">
           <h2 className="projects-title">CRAVIMOOR</h2>
           <h1>Vision Beyond Limits</h1>
-          <p>Design. Innovation. Excellence</p>
+          <p>Design. Management. Innovation. Excellence</p>
         </div>
       </section>
 
 {/* Leadership & PMP Section */}
       <LeadershipSection />
-      
+
       {/* Featured Projects Intro */}
       <section className="section" id="projects">
         <h2>Featured Projects</h2>
