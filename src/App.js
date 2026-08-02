@@ -290,8 +290,9 @@ function App() {
           With over 20 years of hands-on experience in mechanical design and industrial engineering, 
           I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
           <strong>Professional Background:</strong><br/>
-          • <strong>Automotive:</strong> 7+ years designing utility vehicle bodies for ISUZU/GM<br/>
-          • <strong>Industrial:</strong> 10+ years as senior mechanical designer at SOTACIB cement plant<br/>
+          • <strong>Automotive:</strong> 5+ years designing utility vehicle bodies for ISUZU/GM<br/>
+          • <strong>Leadership: 3+ years in supervisory roles (Team Leader, Assembly Department Manager) overseeing up to 55 employees at ISUZU/GM<br/>
+          • <strong>Industrial:</strong> 13+ years as senior mechanical designer at SOTACIB cement plant<br/>
           • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
           • <strong>Freelance Design:</strong> International clients in France, Denmark, and Pakistan<br/><br/>
           <strong>Education & Certification:</strong><br/>
