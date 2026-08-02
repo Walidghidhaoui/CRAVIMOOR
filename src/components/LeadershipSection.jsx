@@ -134,7 +134,7 @@ export default function LeadershipSection() {
           {/* 1. صورة الشهادة */}
           <div style={{ position: "relative" }}>
             <img 
-              public="/images/pmp-certificate.jpg"  /* ضع هنا مسار الصورة الخاصة بك */
+              imageUrl="/images/pmp-certificate.jpg"  /* ضع هنا مسار الصورة الخاصة بك */
               alt="PMP Certificate" 
               style={{ 
                 maxWidth: "300px", /* تحكم في الحجم حسب رغبتك */
