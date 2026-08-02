@@ -319,7 +319,7 @@ function App() {
       {/* Footer */}
       <hr className="footer-line" />
       <p className="footer-text">
-        © 2025 Cravimoor. All rights reserved. | Powered by Cravimoor
+        © 2026 Cravimoor. All rights reserved. | Powered by Cravimoor
       </p>
     </div>
   );
