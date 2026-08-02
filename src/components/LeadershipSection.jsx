@@ -144,23 +144,7 @@ export default function LeadershipSection() {
               }} 
             />
           </div>
-          {/* 2. رابط التحقق من المصداقية */}
-          <a 
-            href="https://www.credly.com/badges/da72feed-ed1f-4f06-84d3-6a2ecd96e46e/public_url" /* ضع هنا رابط الشهادة الحقيقي من موقع PMI */
-            target="_blank" 
-            rel="noopener noreferrer"
-            style={{
-              color: "#D4AF37",
-              fontSize: "0.9rem",
-              textDecoration: "underline",
-              transition: "color 0.3s"
-            }}
-            onMouseEnter={(e) => e.target.style.color = "#fff"}
-            onMouseLeave={(e) => e.target.style.color = "#D4AF37"}
-          >
-            Verify Certification (Check PMI Credential)
-          </a>
-        </div>
+          
       </div>
     </section>
   );
