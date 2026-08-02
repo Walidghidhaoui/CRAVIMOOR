@@ -129,23 +129,23 @@ export default function LeadershipSection() {
             20+ Years Industrial &amp; Automotive
           </span>
         </div>
-        <div style={{ marginTop: "2.5rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
+                <div style={{ marginTop: "2.5rem", display: "flex", justifyContent: "center" }}>
           
           {/* 1. صورة الشهادة */}
           <div style={{ position: "relative" }}>
             <img 
-              src="/images/pmp-certificate.jpg"  /* ضع هنا مسار الصورة الخاصة بك */
+              src="/images/pmp-certificate.jpg"
               alt="PMP Certificate" 
               style={{ 
-                maxWidth: "300px", /* تحكم في الحجم حسب رغبتك */
+                maxWidth: "300px",
                 width: "100%", 
                 borderRadius: "8px", 
-                boxShadow: "0 4px 15px rgba(212, 175, 55, 0.2)" /* إضاءة ذهبية خفيفة حول الصورة */
+                boxShadow: "0 4px 15px rgba(212, 175, 55, 0.2)"
               }} 
             />
           </div>
           
-      </div>
+        </div>
     </section>
   );
 }
