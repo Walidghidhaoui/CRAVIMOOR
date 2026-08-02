@@ -134,8 +134,8 @@ export default function LeadershipSection() {
           {/* 1. صورة الشهادة */}
           <div style={{ position: "relative" }}>
             <img 
-              src="/images/pmp-certificate.jpg"  /* ضع هنا مسار الصورة الخاصة بك */
-              alt="PMP Certificate Cravimoor" 
+              public="/images/pmp-certificate.jpg"  /* ضع هنا مسار الصورة الخاصة بك */
+              alt="PMP Certificate" 
               style={{ 
                 maxWidth: "300px", /* تحكم في الحجم حسب رغبتك */
                 width: "100%", 
