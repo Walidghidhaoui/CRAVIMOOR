@@ -43,6 +43,9 @@ function App() {
         </div>
       </section>
 
+{/* Leadership & PMP Section */}
+      <LeadershipSection />
+      
       {/* Featured Projects Intro */}
       <section className="section" id="projects">
         <h2>Featured Projects</h2>
@@ -57,9 +60,7 @@ function App() {
           </div>
         </p>
       </section>
-        {/* Leadership & PMP Section */}
-      <LeadershipSection />
-
+        
       {/* Aeronautic Projects */}
       <motion.section
         className="section"
