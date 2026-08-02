@@ -8,11 +8,11 @@ export default function LeadershipSection() {
   const competencies = [
     {
       title: "Project & Program Leadership",
-      desc: "20+ years leading industrial teams (up to 55 staff) — from concept design to full plant execution, including cross-functional coordination across engineering, production, and maintenance.",
+      desc: "20+ years leading industrial teams (up to 55 staff) from concept design to full plant execution, including cross-functional coordination across engineering, production, and maintenance.",
     },
     {
       title: "PMP® Certified",
-      desc: "Project Management Professional (PMI), 2026 — scope, schedule, risk, and stakeholder management applied to real industrial projects, not just theory.",
+      desc: "Project Management Professional (PMI), 2026 scope, schedule, risk, and stakeholder management applied to real industrial projects, not just theory.",
     },
     {
       title: "Process & Cost Optimization",
@@ -20,7 +20,7 @@ export default function LeadershipSection() {
     },
     {
       title: "Cross-Functional Coordination",
-      desc: "Bridging design, manufacturing, and maintenance teams — translating technical constraints into clear project decisions for stakeholders.",
+      desc: "Bridging design, manufacturing, and maintenance teams translating technical constraints into clear project decisions for stakeholders.",
     },
   ];
 
@@ -35,11 +35,12 @@ export default function LeadershipSection() {
       }}
     >
       <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-        <h2
+                <h2
           style={{
             fontSize: "2rem",
             fontWeight: 800,
             marginBottom: "0.75rem",
+            textAlign: "center", // إضافة جديدة
             background: "linear-gradient(90deg, #D4AF37, #B22222)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -47,11 +48,19 @@ export default function LeadershipSection() {
         >
           Leadership &amp; Project Management
         </h2>
-        <p style={{ color: "#a3a3a3", maxWidth: "640px", marginBottom: "2.5rem", fontSize: "0.95rem" }}>
-          Beyond design and modeling, Cravimoor is built on 20+ years of leading
-          real industrial teams and projects — now formalized through PMP® certification.
-        </p>
 
+        <p style={{ 
+          color: "#a3a3a3", 
+          maxWidth: "640px", 
+          marginBottom: "2.5rem", 
+          fontSize: "0.95rem",
+          textAlign: "center", // إضافة جديدة
+          marginLeft: "auto",  // إضافة جديدة
+          marginRight: "auto"  // إضافة جديدة
+        }}>
+          Beyond design and modeling, Cravimoor is built on 20+ years of leading
+          real industrial teams and projects now formalized through PMP® certification.
+        </p>
         <div
           style={{
             display: "grid",
