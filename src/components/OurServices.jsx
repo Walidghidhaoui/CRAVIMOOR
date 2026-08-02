@@ -81,7 +81,7 @@ const OurServices = () => {
             <p className="service-subtitle">Technical Solutions for Europe</p>
             <p>3D modeling of industrial equipment and technical products</p>
             <div className="client-example">
-              <strong>Client References:</strong> Danish roller compactor manufacturer, French skateboard design
+              <strong>Client References:</strong> French skateboard design
             </div>
             <div className="client-example">
               <strong>Deliverables:</strong> Production-ready 3D models and technical drawings
