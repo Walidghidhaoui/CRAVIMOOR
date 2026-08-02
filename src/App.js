@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar';
 import LeadershipSection from './components/LeadershipSection';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
@@ -21,20 +20,7 @@ function App() {
       {/* Navbar */}
       <nav className="navbar">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* 👇 AJOUTE JUSTE CE BLOC ICI 👇 */}
-          <a 
-            href="https://www.credly.com/badges/da72feed-ed1f-4f06-84d3-6a2ecd96e46e/public_url" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            style={{ display: 'flex', alignItems: 'center' }}
-          >
-            <img 
-              src="/images/pmp-badge.png" 
-              alt="PMP Certified" 
-              style={{ height: '26px' }} 
-            />
-          </a>
-          {/* 👆 FIN DU BLOC AJOUTÉ 👆 */}
+       
         </div>
         <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
           <li><a href="#home">Home</a></li>
