@@ -17,7 +17,7 @@ const Navbar = () => {
       <img src="/logo.png" alt="Logo" className="logo" />
       {/* 👇 ADDED PMP BADGE HERE 👇 */}
         <a 
-          href="https://www.credly.com/badges/da72feed-ed1f-4f06-84d3-6a2ecd96e46e/public_url"  /* ضع رابط PMI الحقيقي هنا */
+          href="https://www.credly.com/badges/da72feed-ed1f-4f06-84d3-6a2ecd96e46e/public_url"  
           target="_blank" 
           rel="noopener noreferrer"
           className="pmp-badge-link"
