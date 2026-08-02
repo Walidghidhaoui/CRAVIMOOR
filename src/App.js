@@ -1,3 +1,4 @@
+import LeadershipSection from './components/LeadershipSection';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
@@ -56,6 +57,8 @@ function App() {
           </div>
         </p>
       </section>
+        {/* Leadership & PMP Section */}
+      <LeadershipSection />
 
       {/* Aeronautic Projects */}
       <motion.section
