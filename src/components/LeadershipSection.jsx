@@ -88,7 +88,7 @@ export default function LeadershipSection() {
           ))}
         </div>
 
-        <div style={{ marginTop: "2.5rem", display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
+                <div style={{ marginTop: "2.5rem", display: "flex", flexWrap: "wrap", gap: "0.75rem", justifyContent: "center" }}>
           <span
             style={{
               padding: "0.4rem 1rem",
