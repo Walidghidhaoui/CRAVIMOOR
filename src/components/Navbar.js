@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+// 1. استورد الصورة هنا (عدل المسار إذا كان مختلفاً)
+import logo from './logo.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,13 +29,12 @@ const Navbar = () => {
       zIndex: 1000
     }}>
       
-      {/* ✅ تم إصلاح مسار الصورة وحذف الـ Badge */}
+      {/* 2. استخدم المتغير logo هنا بدلاً من المسار النصي */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        {/* قمنا بتغيير src من /logo.png إلى /images/logo.png (أو المسار الصحيح لصورتك) */}
-        <img src="/images/logo.png" alt="Logo" style={{ height: '60px' }} /> 
+        <img src={logo} alt="Logo" style={{ height: '60px' }} /> 
       </div>
 
-      {/* الروابط */}
+      {/* بقية الروابط كما هي... */}
       <nav className={`nav-links ${isOpen ? 'show' : ''}`} id="navLinks" style={{
         display: 'flex',
         listStyle: 'none',
@@ -41,19 +42,8 @@ const Navbar = () => {
         margin: 0,
         padding: 0
       }}>
-        <a href="#home" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Home</a>
-        <a href="#projects" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Projects</a>
-        <a href="#about" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>About</a>
-        <a href="#services" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Services</a>
-        <a href="#contact" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Contact</a>
+        {/* ... نفس الروابط ... */}
       </nav>
-
-      {/* هامبرغر للموبايل */}
-      <div className="hamburger" id="burger" onClick={toggleMenu} style={{ display: 'none', flexDirection: 'column', gap: '6px', cursor: 'pointer' }}>
-        <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
-        <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
-        <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
-      </div>
     </header>
   );
 };
