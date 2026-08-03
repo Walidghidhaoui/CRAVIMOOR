@@ -27,21 +27,10 @@ const Navbar = () => {
       zIndex: 1000
     }}>
       
-      {/* مجموعة الشعار والبادج */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-        <img src="/logo.png" alt="Logo" style={{ height: '60px' }} />
-        
-        <a 
-          href="https://www.credly.com/badges/da72feed-ed1f-4f06-84d3-6a2ecd96e46e/public_url"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          <img 
-            src="/images/pmp-badge.png" 
-            alt="PMP Certified" 
-            style={{ height: '35px' }} 
-          />
-        </a>
+      {/* ✅ تم إصلاح مسار الصورة وحذف الـ Badge */}
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        {/* قمنا بتغيير src من /logo.png إلى /images/logo.png (أو المسار الصحيح لصورتك) */}
+        <img src="/images/logo.png" alt="Logo" style={{ height: '60px' }} /> 
       </div>
 
       {/* الروابط */}
