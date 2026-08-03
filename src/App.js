@@ -12,26 +12,8 @@ function App() {
 
   return (
     <div className="App">
-       {/* Navbar */}
-      <nav className="navbar">
-        <img src={logo} className="App-logo" alt="logo" />
+       <Navbar />
        
-        </div>
-        <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div className="hamburger" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-
-
       {/* Hero */}
       <section id="home" className="hero" style={{ backgroundImage: `url(${bugattiBackground})` }}>
         <div className="hero-text">

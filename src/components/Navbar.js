@@ -1,5 +1,5 @@
-  import React, { useState } from 'react';
-
+import React, { useState } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className="navbar">
       <img src="/logo.png" alt="Logo" className="logo" />
 
-      <nav className={`nav-links ${isOpen ? 'show' : ''}`} id="navLinks">
+      <nav className={`nav-links ${isOpen ? 'show' : ''}`}>
         <a href="#home" onClick={closeMenu}>Home</a>
         <a href="#projects" onClick={closeMenu}>Projects</a>
         <a href="#about" onClick={closeMenu}>About</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <a href="#contact" onClick={closeMenu}>Contact</a>
       </nav>
 
-      <div className="hamburger" id="burger" onClick={toggleMenu}>
+      <div className="hamburger" onClick={toggleMenu}>
         <span></span>
         <span></span>
         <span></span>
