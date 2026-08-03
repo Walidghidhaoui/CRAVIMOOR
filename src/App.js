@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
 import ContactUs from './components/ContactUs';
-import logo from './logo.png';
 import bugattiBackground from './images/BUG_Ghidhaoui_1.jpg'; 
 import './App.css';
 import OurServices from './components/OurServices';
