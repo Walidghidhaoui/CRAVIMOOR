@@ -10,11 +10,7 @@ import OurServices from './components/OurServices';
 import Navbar from './components/Navbar';
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  
 
   return (
     <div className="App">
