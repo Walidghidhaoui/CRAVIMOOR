@@ -1,5 +1,4 @@
 import LeadershipSection from './components/LeadershipSection';
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './components/ProjectCard';
 import ContactUs from './components/ContactUs';
