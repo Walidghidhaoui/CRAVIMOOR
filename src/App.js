@@ -21,7 +21,6 @@ function App() {
                 {/* Navbar */}
       <nav className="navbar">
         <img src={logo} className="App-logo" alt="logo" />
-       
         </div>
         <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
           <li><a href="#home">Home</a></li>
