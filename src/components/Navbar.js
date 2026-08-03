@@ -1,5 +1,5 @@
   import React, { useState } from 'react';
-import './Responsive Home Css.css'; // Assure-toi que le chemin est correct
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
