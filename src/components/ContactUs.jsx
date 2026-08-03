@@ -107,7 +107,7 @@ const ContactUs = () => {
               <span className="social-icon">♬</span> TikTok
             </a>
             <a 
-              href="https://www.youtube.com/@CRAVIMOORDESIGN"
+              href="https://www.youtube.com/@cravimoordesign"
               target="_blank"
               rel="noopener noreferrer"
               className="social-button youtube-btn"
