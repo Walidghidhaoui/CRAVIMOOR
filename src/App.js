@@ -7,6 +7,7 @@ import logo from './logo.png';
 import bugattiBackground from './images/BUG_Ghidhaoui_1.jpg'; 
 import './App.css';
 import OurServices from './components/OurServices';
+import Navbar from './components/Navbar';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,24 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* Navbar */}
-      <nav className="navbar">
-        <img src={logo} className="App-logo" alt="logo" />
-       
-        </div>
-        <ul className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div className="hamburger" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
+            <Navbar />
 
       {/* Hero */}
       <section id="home" className="hero" style={{ backgroundImage: `url(${bugattiBackground})` }}>
