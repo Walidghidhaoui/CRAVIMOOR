@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* ✅ تم إصلاح مسار الصورة وحذف الـ Badge */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
         {/* قمنا بتغيير src من /logo.png إلى /images/logo.png (أو المسار الصحيح لصورتك) */}
-        <img src="/images/logo.png" alt="Logo" style={{ height: '60px' }} /> 
+        <img src="/images/logo.png" alt="Logo" className="App-logo" style={{ height: '60px' }} />
       </div>
 
       {/* الروابط */}
