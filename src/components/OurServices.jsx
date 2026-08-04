@@ -14,7 +14,8 @@ const OurServices = () => {
 </p>
           <p className="services-intro">
             From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
-            that combine technical accuracy with visual appeal.
+            that combine technical accuracy with visual appeal. Cravimoor is my independent freelance 
+            design practice — this is my personal portfolio, not a company.
           </p>
         </div>
 
@@ -26,7 +27,7 @@ const OurServices = () => {
   <div className="stats-grid">
     <div className="stat-item">
       <div className="stat-number">4.8M+</div>
-      <div className="stat-label">Views in 3 Months</div> {/* ← MODIFIÉ */}
+      <div className="stat-label">Views in 3 Months</div>
     </div>
     <div className="stat-item">
       <div className="stat-number">81K+</div>
@@ -65,7 +66,7 @@ const OurServices = () => {
             <ul className="service-list">
               <li><strong>Automotive Design:</strong> Bugatti, Lamborghini, Maybach concepts - CATIA modeling</li>
               <li><strong>Industrial Equipment:</strong> Roller compactors, crushers, cooling towers</li>
-              <li><strong>Product Design:</strong> Innovative skateboard (French client), mechanical parts</li>
+              <li><strong>Product Design:</strong> Skateboard design for an independent client, mechanical parts</li>
               <li><strong>Technical Solutions:</strong> Library concealing ductwork</li>
               <li><strong>3D Modeling:</strong> For manufacturing, presentation, technical documentation</li>
             </ul>
@@ -81,7 +82,7 @@ const OurServices = () => {
             <p className="service-subtitle">Technical Solutions for Europe</p>
             <p>3D modeling of industrial equipment and technical products</p>
             <div className="client-example">
-              <strong>Client References:</strong> French skateboard design
+              <strong>Past Freelance Work:</strong> Skateboard design for a client in France
             </div>
             <div className="client-example">
               <strong>Deliverables:</strong> Production-ready 3D models and technical drawings
@@ -96,7 +97,7 @@ const OurServices = () => {
   <p>Transform your products into engaging 3D animations</p>
   <div className="benefits">
     <div className="benefit">✅ Viral aeronautic designs on TikTok</div>
-    <div className="benefit">✅ 4.8M+ views in 3 months - proven appeal</div> {/* ← AJOUTÉ */}
+    <div className="benefit">✅ 4.8M+ views in 3 months - proven appeal</div>
     <div className="benefit">✅ Professional Blender 3D animation</div>
   </div>
 </div>
@@ -119,19 +120,19 @@ const OurServices = () => {
 
         {/* Why Choose */}
         <div className="why-choose">
-          <h3>✅ Why Choose Cravimoor</h3>
+          <h3>✅ Why Work With Me</h3>
           <div className="reasons-grid">
             <div className="reason">
   <strong>Proven Viral Appeal</strong>
-  <p>4.8M+ TikTok views in 3 months - designs that perform</p> {/* ← MODIFIÉ */}
+  <p>4.8M+ TikTok views in 3 months - designs that perform</p>
 </div>
             <div className="reason">
               <strong>Technical Expertise</strong>
               <p>Specialist in CATIA V5, SolidWorks, Blender - mechanical engineering background</p>
             </div>
             <div className="reason">
-              <strong>Proven Results</strong>
-              <p>Clients in France, High-performing TikTok designs</p>
+              <strong>Freelance Track Record</strong>
+              <p>Independent design work for clients in France, plus high-performing TikTok designs</p>
             </div>
             <div className="reason">
               <strong>Practical Approach</strong>
