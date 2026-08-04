@@ -58,8 +58,7 @@ export default function LeadershipSection() {
           marginLeft: "auto",  // إضافة جديدة
           marginRight: "auto"  // إضافة جديدة
         }}>
-          Beyond design and modeling, Cravimoor is built on 20+ years of leading
-          real industrial teams and projects now formalized through PMP® certification.
+          Beyond design and modeling, I bring 20+ years of leading real industrial teams and projects, now formalized through PMP® certification.
         </p>
         <div
           style={{

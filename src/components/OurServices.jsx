@@ -10,7 +10,7 @@ const OurServices = () => {
         <div className="services-header">
   <h2>SERVICES</h2>
   <p className="services-subtitle">
-  <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 4.8M+ TikTok Views in 3 Months
+  <strong>CAD & 3D Design Expert</strong> - 20+ Years in Mechanical Design | 5.7M+ TikTok Views
 </p>
           <p className="services-intro">
             From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
@@ -34,7 +34,7 @@ const OurServices = () => {
       <div className="stat-label">Likes</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">6.7</div>
+      <div className="stat-number">6.7k</div>
       <div className="stat-label">Shares</div>
     </div>
     <div className="stat-item">
@@ -42,7 +42,7 @@ const OurServices = () => {
       <div className="stat-label">Profile Views</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">5.8</div>
+      <div className="stat-number">5.8k</div>
       <div className="stat-label">Comments</div>
     </div>
     <div className="stat-item">
