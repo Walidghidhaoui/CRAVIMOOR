@@ -52,7 +52,7 @@ function App() {
       >
         <h2>✈️ Viral Aeronautic Projects</h2>
         <p className="projects-intro">
-          <strong>Engineering meets viral impact: 1.7M+ views on TikTok</strong><br/>
+          <strong>Engineering meets viral impact: 3M+ views on TikTok</strong><br/>
           Aeronautic concepts that combine technical precision with social media success.
         </p>
         <div className="projects-grid">
@@ -282,10 +282,10 @@ function App() {
           <strong>Education & Certification:</strong><br/>
           • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
           • Technical engineering degree in Mechanical Engineering<br/>
-          • Certified expertise in CATIA V5, SolidWorks, and Blender<br/><br/>
+          • Certified expertise in CATIA V5, SolidWorks, AutoCad, and Blender<br/><br/>
           <strong>What sets my approach apart:</strong><br/>
           • <strong>Technical precision</strong> from industrial engineering background<br/>
-          • <strong>Viral design appeal</strong> - 4.8M+ TikTok views in just 3 months<br/>
+          • <strong>Viral design appeal</strong> - 5.7M+ TikTok views<br/>
           • <strong>Practical experience</strong> with real-world manufacturing constraints<br/>
           I bridge the gap between theoretical engineering and practical, 
           production-ready 3D design, delivering solutions that are both 
