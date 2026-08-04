@@ -48,8 +48,8 @@ const Navbar = () => {
         <a href="#contact" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Contact</a>
       </nav>
 
-      {/* هامبرغر للموبايل */}
-      <div className="hamburger" id="burger" onClick={toggleMenu} style={{ display: 'none', flexDirection: 'column', gap: '6px', cursor: 'pointer' }}>
+     {/* هامبرغر للموبايل */}
+      <div className="hamburger" id="burger" onClick={toggleMenu} style={{ flexDirection: 'column', gap: '6px', cursor: 'pointer' }}>
         <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
         <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
         <span style={{ width: '25px', height: '3px', background: '#00ffe7', borderRadius: '3px' }}></span>
