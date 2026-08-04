@@ -52,7 +52,7 @@ body, html {
 .App-logo {
   height: 60px;
   pointer-events: none;
-  animation: float 4s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
   filter: drop-shadow(0 0 8px rgba(0, 255, 231, 0.4));
 }
 
