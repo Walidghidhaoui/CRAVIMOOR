@@ -131,7 +131,7 @@ const OurServices = () => {
             </div>
             <div className="reason">
               <strong>Proven Results</strong>
-              <p>Clients in France, Denmark - High-performing TikTok designs</p>
+              <p>Clients in France,- High-performing TikTok designs</p>
             </div>
             <div className="reason">
               <strong>Practical Approach</strong>

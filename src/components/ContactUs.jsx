@@ -29,19 +29,19 @@ const ContactUs = () => {
       'UU4qhYU51mSNj6wdR'
     )
     .then(() => {
-      alert('Message envoyé avec succès à walidghidhawi@gmail.com !');
+      alert('Message sent successfully to walidghidhawi@gmail.com!');
       setFormData({ name: '', email: '', message: '' });
     })
     .catch((error) => {
-      console.error('Erreur lors de l\'envoi :', error);
-      alert("Erreur lors de l'envoi");
+      console.error('Error sending message:', error);
+      alert('Error sending message. Please try again.');
     });
   };
 
   const contactInfo = [
     { icon: '📧', label: 'Email', value: 'walidghidhawi@gmail.com' },
-    { icon: '📱', label: 'Téléphone', value: '+216 96 30 78 00' },
-    { icon: '🏢', label: 'Adresse', value: 'Kairouan, Tunis' }
+    { icon: '📱', label: 'Phone', value: '+216 96 30 78 00' },
+    { icon: '🏢', label: 'Address', value: 'Kairouan, Tunisia' }
   ];
 
   return (
@@ -49,9 +49,9 @@ const ContactUs = () => {
       <h2 className="section-title">Contact Us</h2>
       <div className="contact-container">
 
-        {/* Partie Coordonnées */}
+        {/* Contact Info Card */}
         <div className="contact-info-card">
-          <h3>Nos Coordonnées</h3>
+          <h3>Contact Information</h3>
           <table className="contact-table">
             <tbody>
               {contactInfo.map((item, index) => (
@@ -64,7 +64,7 @@ const ContactUs = () => {
             </tbody>
           </table>
 
-          {/* Liens sociaux */}
+          {/* Social Links */}
           <div className="social-links">
             <a 
               href="https://www.linkedin.com/in/walid-ghidhaoui-3a3120125/" 
@@ -117,7 +117,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* Formulaire de contact */}
+        {/* Contact Form */}
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-group">
             <input
@@ -128,7 +128,7 @@ const ContactUs = () => {
               placeholder=" "
               required
             />
-            <label>Votre Nom</label>
+            <label>Your Name</label>
           </div>
 
           <div className="form-group">
@@ -140,7 +140,7 @@ const ContactUs = () => {
               placeholder=" "
               required
             />
-            <label>Votre Email</label>
+            <label>Your Email</label>
           </div>
 
           <div className="form-group">
@@ -151,11 +151,11 @@ const ContactUs = () => {
               placeholder=" "
               required
             />
-            <label>Votre Message</label>
+            <label>Your Message</label>
           </div>
 
           <button type="submit" className="submit-btn">
-            Envoyer
+            Send Message
           </button>
         </form>
 
