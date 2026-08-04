@@ -35,12 +35,11 @@ const Navbar = () => {
 
       {/* الروابط */}
       <nav className={`nav-links ${isOpen ? 'show' : ''}`} id="navLinks" style={{
-        display: 'flex',
-        listStyle: 'none',
-        gap: '2rem',
-        margin: 0,
-        padding: 0
-      }}>
+  listStyle: 'none',
+  gap: '2rem',
+  margin: 0,
+  padding: 0
+}}>
         <a href="#home" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Home</a>
         <a href="#projects" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>Projects</a>
         <a href="#about" onClick={closeMenu} style={{ color: '#00ffe7', textDecoration: 'none', fontWeight: 'bold' }}>About</a>
