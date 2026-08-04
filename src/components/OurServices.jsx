@@ -22,27 +22,27 @@ const OurServices = () => {
         {/* TikTok Stats */}
 <div className="tiktok-stats">
   <h3>🚀 Viral Design Performance</h3>
-  <p>My automotive designs gained 4.8M+ views in just 3 months, proving viral appeal.</p>
+  <p>My models gained 5.7M+ views on TikTok, proving viral appeal. Notably, my Tunisian Falcon alone reached 1.7M views in just 3 months.</p>
   
   <div className="stats-grid">
     <div className="stat-item">
-      <div className="stat-number">4.8M+</div>
-      <div className="stat-label">Views in 3 Months</div>
+      <div className="stat-number">5.7M+</div>
+      <div className="stat-label">Views</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">81K+</div>
+      <div className="stat-number">114.5K+</div>
       <div className="stat-label">Likes</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">4,291</div>
+      <div className="stat-number">6.7</div>
       <div className="stat-label">Shares</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">15K</div>
+      <div className="stat-number">21.7K</div>
       <div className="stat-label">Profile Views</div>
     </div>
     <div className="stat-item">
-      <div className="stat-number">4,112</div>
+      <div className="stat-number">5.8</div>
       <div className="stat-label">Comments</div>
     </div>
     <div className="stat-item">
@@ -62,7 +62,7 @@ const OurServices = () => {
           <div className="service-card highlight-card compact-card">
             <div className="service-icon">⚙️</div>
             <h3>Industrial & Automotive 3D Design</h3>
-            <p className="service-subtitle">Expert in CATIA V5, SolidWorks, Blender - 20+ Years Experience</p>
+            <p className="service-subtitle">Expert in CATIA V5, SolidWorks, AutoCad, Blender - 20+ Years Experience</p>
             <ul className="service-list">
               <li><strong>Automotive Design:</strong> Bugatti, Lamborghini, Maybach concepts - CATIA modeling</li>
               <li><strong>Industrial Equipment:</strong> Roller compactors, crushers, cooling towers</li>
@@ -97,7 +97,7 @@ const OurServices = () => {
   <p>Transform your products into engaging 3D animations</p>
   <div className="benefits">
     <div className="benefit">✅ Viral aeronautic designs on TikTok</div>
-    <div className="benefit">✅ 4.8M+ views in 3 months - proven appeal</div>
+    <div className="benefit">✅ My Tunisian Falcon alone reached 1.7M views in just 3 months - proven appeal</div>
     <div className="benefit">✅ Professional Blender 3D animation</div>
   </div>
 </div>
@@ -124,11 +124,11 @@ const OurServices = () => {
           <div className="reasons-grid">
             <div className="reason">
   <strong>Proven Viral Appeal</strong>
-  <p>4.8M+ TikTok views in 3 months - designs that perform</p>
+  <p>My Tunisian Falcon alone reached 1.7M views in just 3 months - designs that perform</p>
 </div>
             <div className="reason">
               <strong>Technical Expertise</strong>
-              <p>Specialist in CATIA V5, SolidWorks, Blender - mechanical engineering background</p>
+              <p>Specialist in CATIA V5, SolidWorks, AutoCad, Blender - mechanical engineering background</p>
             </div>
             <div className="reason">
               <strong>Freelance Track Record</strong>
