@@ -129,7 +129,7 @@ export default function LeadershipSection() {
             20+ Years Industrial &amp; Automotive
           </span>
         </div>
-                <div style={{ marginTop: "2.5rem", display: "flex", justifyContent: "center" }}>
+                <div style={{ marginTop: "2.5rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
           
           {/* 1. صورة الشهادة */}
           <div style={{ position: "relative" }}>
