@@ -278,7 +278,6 @@ function App() {
           • <strong>Leadership:</strong> 3+ years in supervisory roles (Team Leader – Cab Assembly Line, Assembly Department Manager) overseeing up to 55 employees at ISUZU/GM<br/>
           • <strong>Industrial:</strong> 13+ years as senior mechanical designer at SOTACIB cement plant<br/>
           • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
-          • <strong>Freelance Design:</strong> International clients in France<br/><br/>
           <strong>Education & Certification:</strong><br/>
           • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
           • Technical engineering degree in Mechanical Engineering<br/>
@@ -290,6 +289,10 @@ function App() {
           I bridge the gap between theoretical engineering and practical, 
           production-ready 3D design, delivering solutions that are both 
           technically sound and visually compelling.
+          Design work (Bugatti Mistral, Lamborghini concept, FSAE race car, transforming bed) featured on Dassault Systèmes' official
+3DEXPERIENCE platform; received an official thank-you gift from their Social Media Team in recognition.
+Recognized by Philippe Laufer, Executive Vice President – 3DS Global Brands, Dassault Systèmes, for CATIA design expertise (LinkedIn,
+2020).
         </p>
       </section>
 
