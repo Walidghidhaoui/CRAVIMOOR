@@ -58,7 +58,7 @@ export default function LeadershipSection() {
           marginLeft: "auto",  // إضافة جديدة
           marginRight: "auto"  // إضافة جديدة
         }}>
-          Beyond design and modeling, I bring 20+ years of leading real industrial teams and projects, now formalized through PMP® certification.
+          With 20+ years of experience in 3D design and modeling, my expertise has been further strengthened by a Professional Master’s (MSc) in Industrial Systems Maintenance Management, as well as PMP® certification. These qualifications have enabled me to bring academic rigor and a strategic perspective to my extensive industrial expertise.
         </p>
         <div
           style={{
