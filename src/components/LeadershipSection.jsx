@@ -12,7 +12,7 @@ export default function LeadershipSection() {
     },
     {
       title: "PMP® Certified",
-      desc: "Project Management Professional (PMI), 2026 .",
+      desc: "Project Management Professional (PMI), 2026.",
     },
     {
       title: "Process & Cost Optimization",
