@@ -87,8 +87,7 @@ const OurServices = () => {
     <div className="benefit">✅ My Tunisian Falcon alone reached 1.7M views in just 3 months - proven appeal</div>
     <div className="benefit">✅ Professional Blender 3D animation</div>
   </div>
-</div>
-</div>
+
 
         {/* Why Choose */}
         <div className="why-choose">
