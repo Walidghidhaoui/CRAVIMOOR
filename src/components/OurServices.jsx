@@ -88,7 +88,7 @@ const OurServices = () => {
     <div className="benefit">✅ Professional Blender 3D animation</div>
   </div>
 </div>
-
+</div>
 
         {/* Why Choose */}
         <div className="why-choose">
