@@ -15,7 +15,7 @@ const OurServices = () => {
           <p className="services-intro">
             From industrial equipment to viral TikTok designs, I transform concepts into precise 3D models 
             that combine technical accuracy with visual appeal. Cravimoor is my independent freelance 
-            design practice — this is my personal portfolio, not a company.
+            design practice — this is my personal portfolio.
           </p>
         </div>
 
@@ -75,19 +75,6 @@ const OurServices = () => {
             </p>
           </div>
 
-          {/* Service 2 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">🌍</div>
-            <h3>For International Clients</h3>
-            <p className="service-subtitle">Technical Solutions for Europe</p>
-            <p>3D modeling of industrial equipment and technical products</p>
-            <div className="client-example">
-              <strong>Past Freelance Work:</strong> Skateboard design for a client in France
-            </div>
-            <div className="client-example">
-              <strong>Deliverables:</strong> Production-ready 3D models and technical drawings
-            </div>
-          </div>
 
           {/* Service 3 */}
 <div className="service-card compact-card">
