@@ -271,29 +271,15 @@ function App() {
         <h2>About Me</h2>
         <p>
           <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong><br/><br/>
-          With over 20 years of hands-on experience in mechanical design and industrial engineering, 
-          I specialize in precision 3D modeling using CATIA V5, SolidWorks, and Blender.<br/><br/>
-          <strong>Professional Background:</strong><br/>
-          • <strong>Automotive:</strong> 5+ years as Automotive Engineering Designer, designing utility vehicle bodies for ISUZU/GM<br/>
-          • <strong>Leadership:</strong> 3+ years in supervisory roles (Team Leader – Cab Assembly Line, Assembly Department Manager) overseeing up to 55 employees at ISUZU/GM<br/>
-          • <strong>Industrial:</strong> 13+ years as senior mechanical designer at SOTACIB cement plant<br/>
-          • <strong>Medical Devices:</strong> 2 years in ISO-certified medical equipment design at SOFEMED<br/>
-          • <strong>Freelance Design:</strong> International clients in France<br/><br/>
-          <strong>Education & Certification:</strong><br/>
-          • Master's in Industrial Systems Maintenance Management (ISSAT Kairouan)<br/>
-          • Technical engineering degree in Mechanical Engineering<br/>
-          • Certified expertise in CATIA V5, SolidWorks, AutoCad, and Blender<br/><br/>
-          <strong>What sets my approach apart:</strong><br/>
-          • <strong>Technical precision</strong> from industrial engineering background<br/>
-          • <strong>Viral design appeal</strong> - 5.7M+ TikTok views<br/>
-          • <strong>Practical experience</strong> with real-world manufacturing constraints<br/>
-          I bridge the gap between theoretical engineering and practical, 
-          production-ready 3D design, delivering solutions that are both 
-          technically sound and visually compelling.
-          Design work (Bugatti Mistral, Lamborghini concept, FSAE race car, transforming bed) featured on Dassault Systèmes' official
-3DEXPERIENCE platform; received an official thank-you gift from their Social Media Team in recognition.
-Recognized by Philippe Laufer, Executive Vice President – 3DS Global Brands, Dassault Systèmes, for CATIA design expertise (LinkedIn,
-2020).
+          With 20+ years of experience in mechanical design, industrial engineering, and 3D modeling, I specialize in creating precise, production-ready solutions using CATIA V5, SolidWorks, AutoCAD, and Blender.
+          
+          My background combines automotive and industrial engineering, team leadership, and creative 3D design, allowing me to bridge the gap between engineering precision and visual innovation.
+
+My work has been featured on the official Dassault Systèmes 3DEXPERIENCE platform, including projects such as Bugatti Mistral, Lamborghini concepts, FSAE race cars, and transforming furniture. My designs have also generated 5.7M+ views on TikTok.
+
+My CATIA design expertise was recognized by Philippe Laufer, Executive Vice President – 3DS Global Brands at Dassault Systèmes, on LinkedIn in 2020.
+
+Engineering precision. Creative design. Real-world results.<br/><br/>
         </p>
       </section>
 
