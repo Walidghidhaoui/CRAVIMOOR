@@ -10,10 +10,7 @@ export default function LeadershipSection() {
       title: "Project & Program Leadership",
       desc: "Leading industrial teams (up to 55 staff) from concept design to full plant execution, including cross-functional coordination across engineering, production, and maintenance.",
     },
-    {
-      title: "PMP® Certified",
-      desc: "Project Management Professional (PMI), 2026.",
-    },
+   
     {
       title: "Process & Cost Optimization",
       desc: "Led capital projects (cooling tower design, ball sorting systems, alternative fuel intake systems) delivering measurable efficiency and cost gains.",
