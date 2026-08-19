@@ -12,7 +12,7 @@ export default function LeadershipSection() {
     },
     {
       title: "PMP® Certified",
-      desc: "Project Management Professional (PMI), 2026 scope, schedule, risk, and stakeholder management applied to real industrial projects, not just theory.",
+      desc: "Project Management Professional (PMI), 2026 .",
     },
     {
       title: "Process & Cost Optimization",
