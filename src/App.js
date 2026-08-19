@@ -270,17 +270,36 @@ function App() {
       <section className="section" id="about">
         <h2>About Me</h2>
         <p>
-          <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong><br/><br/>
-          With 20+ years of experience in mechanical design, industrial engineering, and 3D modeling, I specialize in creating precise, production-ready solutions using CATIA V5, SolidWorks, AutoCAD, and Blender.
-          
-          My background combines automotive and industrial engineering, team leadership, and creative 3D design, allowing me to bridge the gap between engineering precision and visual innovation.
+    <strong>Walid Ghidhaoui - CAD & 3D Design Specialist</strong>
+  </p>
 
-My work has been featured on the official Dassault Systèmes 3DEXPERIENCE platform, including projects such as Bugatti Mistral, Lamborghini concepts, FSAE race cars, and transforming furniture. My designs have also generated 5.7M+ views on TikTok.
+  <p>
+    With 20+ years of experience in mechanical design, industrial engineering,
+    and 3D modeling, I specialize in creating precise, production-ready
+    solutions using CATIA V5, SolidWorks, AutoCAD, and Blender.
+  </p>
 
-My CATIA design expertise was recognized by Philippe Laufer, Executive Vice President – 3DS Global Brands at Dassault Systèmes, on LinkedIn in 2020.
+  <p>
+    My background combines automotive and industrial engineering, team
+    leadership, and creative 3D design, allowing me to bridge the gap between
+    engineering precision and visual innovation.
+  </p>
 
-Engineering precision. Creative design. Real-world results.<br/><br/>
-        </p>
+  <p>
+    My work has been featured on the official Dassault Systèmes 3DEXPERIENCE
+    platform, including projects such as Bugatti Mistral, Lamborghini concepts,
+    FSAE race cars, and transforming furniture. My designs have also generated
+    5.7M+ views on TikTok.
+  </p>
+
+  <p>
+    My CATIA design expertise was recognized by Philippe Laufer, Executive Vice
+    President – 3DS Global Brands at Dassault Systèmes, on LinkedIn in 2020.
+  </p>
+
+  <p>
+    <strong>Engineering precision. Creative design. Real-world results.</strong>
+  </p>
       </section>
 
       {/* Services */}
