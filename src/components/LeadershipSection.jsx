@@ -8,7 +8,7 @@ export default function LeadershipSection() {
   const competencies = [
     {
       title: "Project & Program Leadership",
-      desc: "20+ years leading industrial teams (up to 55 staff) from concept design to full plant execution, including cross-functional coordination across engineering, production, and maintenance.",
+      desc: "Leading industrial teams (up to 55 staff) from concept design to full plant execution, including cross-functional coordination across engineering, production, and maintenance.",
     },
     {
       title: "PMP® Certified",
