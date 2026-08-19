@@ -89,21 +89,6 @@ const OurServices = () => {
   </div>
 </div>
 
-          {/* Service 4 */}
-          <div className="service-card compact-card">
-            <div className="service-icon">💡</div>
-            <h3>Prototyping & Visualization</h3>
-            <p className="service-subtitle">From Sketch to 3D Visualization</p>
-            <p>Create 3D models for presentations, crowdfunding, investors</p>
-            <div className="client-example">
-              <strong>For:</strong> Entrepreneurs, inventors, technical startups
-            </div>
-            <p className="service-note">
-              Technical precision + attractive design
-            </p>
-          </div>
-
-        </div>
 
         {/* Why Choose */}
         <div className="why-choose">
